@@ -40,8 +40,8 @@
   <!--  Mobile Specific -->
 
   <!--  Favicon Tags -->
-  <link rel="icon" type="image/png" href="assets/images/favicon.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="{{ asset('assets/admin/images/favicon.png') }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/admin/images/apple-touch-icon.png') }}">
   <!--  Favicon Tags -->
 
   <!--  Google Fonts -->

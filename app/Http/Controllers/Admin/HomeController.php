@@ -7,8 +7,20 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index()
+    public function defaultDashIndex()
     {
         return view('admin.dashboard.index');
+    }
+    public function salesDashIndex()
+    {
+        return view('admin.dashboard.salesIndex');
+    }
+    public function financeDashIndex()
+    {
+        return view('admin.dashboard.financeIndex');
+    }
+    public function teamManagementDashIndex()
+    {
+        return view('admin.dashboard.teamManagementIndex');
     }
 }

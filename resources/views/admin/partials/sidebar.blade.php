@@ -208,25 +208,29 @@
                                 <span class="menu-label">Dashboard</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="{{ route('admin.default-dashboard') }}" role="button">
+                                <a class="menu-link {{ request()->routeIs('admin.default-dashboard') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.default-dashboard') }}" role="button">
                                     <i class="fi fi-rr-house-blank"></i>
                                     <span class="menu-label">Default Dashboard</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="sales.html" role="button">
+                                <a class="menu-link {{ request()->routeIs('admin.sales-dashboard') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.sales-dashboard') }}" role="button">
                                     <i class="fi fi-rr-percent-100"></i>
                                     <span class="menu-label">Sales Dashboard</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="finance.html" role="button">
+                                <a class="menu-link {{ request()->routeIs('admin.finance-dashboard') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.finance-dashboard') }}" role="button">
                                     <i class="fi fi-rr-growth-chart-invest"></i>
                                     <span class="menu-label">Finance Dashboard</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="team-management.html" role="button">
+                                <a class="menu-link {{ request()->routeIs('admin.team-management-dashboard') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.team-management-dashboard') }}" role="button">
                                     <i class="fi fi-rr-circle-user"></i>
                                     <span class="menu-label">Team Management</span>
                                 </a>

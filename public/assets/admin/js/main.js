@@ -304,67 +304,67 @@
 		   CURRENT PAGE
 		============================= */
 
-		var currentPage = window.location.pathname
-			.split('/')
-			.pop()
-			.replace(/\.(php|html|htm)$/i, '');
+		// var currentPage = window.location.pathname
+		// 	.split('/')
+		// 	.pop()
+		// 	.replace(/\.(php|html|htm)$/i, '');
 
-		if (!currentPage) currentPage = 'index';
+		// if (!currentPage) currentPage = 'index';
 
-		// reset
-		$('.app-navbar a').removeClass('active open');
-		$('.app-navbar li').removeClass('active');
-		$('.app-menubar-tabs .menu-link').removeClass('active');
-		$('.app-tab-content .tab-pane').removeClass('active show');
+		// // reset
+		// $('.app-navbar a').removeClass('active open');
+		// $('.app-navbar li').removeClass('active');
+		// $('.app-menubar-tabs .menu-link').removeClass('active');
+		// $('.app-tab-content .tab-pane').removeClass('active show');
 
-		var $activeLink = $('.app-navbar a').filter(function () {
+		// var $activeLink = $('.app-navbar a').filter(function () {
 
-			var href = $(this).attr('href');
-			if (!href || href === '#' || href.startsWith('http')) return false;
+		// 	var href = $(this).attr('href');
+		// 	if (!href || href === '#' || href.startsWith('http')) return false;
 
-			var linkPage = href
-				.split('/')
-				.pop()
-				.replace(/\.(php|html|htm)$/i, '');
+		// 	var linkPage = href
+		// 		.split('/')
+		// 		.pop()
+		// 		.replace(/\.(php|html|htm)$/i, '');
 
-			return linkPage === currentPage;
+		// 	return linkPage === currentPage;
 
-		}).first();
+		// }).first();
 
-		if ($activeLink.length) {
+		// if ($activeLink.length) {
 
-			// sidebar active
-			$activeLink.addClass('active');
-			$activeLink.parent('li').addClass('active');
+		// 	// sidebar active
+		// 	$activeLink.addClass('active');
+		// 	$activeLink.parent('li').addClass('active');
 
-			// parent menu open
-			$activeLink
-				.parents('.menu-inner').show()
-				.prev('a').addClass('open active');
+		// 	// parent menu open
+		// 	$activeLink
+		// 		.parents('.menu-inner').show()
+		// 		.prev('a').addClass('open active');
 
-			/* =============================
-			   TAB SYNC (IMPORTANT PART)
-			============================= */
-			var $tabPane = $activeLink.closest('.tab-pane');
+		// 	/* =============================
+		// 	   TAB SYNC (IMPORTANT PART)
+		// 	============================= */
+		// 	var $tabPane = $activeLink.closest('.tab-pane');
 
-			if ($tabPane.length) {
-				$tabPane.addClass('active show');
+		// 	if ($tabPane.length) {
+		// 		$tabPane.addClass('active show');
 
-				var tabId = $tabPane.attr('id');
-				$('.app-menubar-tabs .menu-link[href="#' + tabId + '"]')
-					.addClass('active');
-			}
-		}else {
-			var $firstTab = $('.app-menubar-tabs .menu-link').first();
-			var firstTabId = $firstTab.attr('href');
+		// 		var tabId = $tabPane.attr('id');
+		// 		$('.app-menubar-tabs .menu-link[href="#' + tabId + '"]')
+		// 			.addClass('active');
+		// 	}
+		// }else {
+		// 	var $firstTab = $('.app-menubar-tabs .menu-link').first();
+		// 	var firstTabId = $firstTab.attr('href');
 
-			$firstTab.addClass('active');
-			$(firstTabId).addClass('active show');
+		// 	$firstTab.addClass('active');
+		// 	$(firstTabId).addClass('active show');
 
-			var $firstMenu = $(firstTabId).find('.app-navbar a').first();
-			$firstMenu.addClass('open active');
-			$firstMenu.next('.menu-inner').show();
-		}
+		// 	var $firstMenu = $(firstTabId).find('.app-navbar a').first();
+		// 	$firstMenu.addClass('open active');
+		// 	$firstMenu.next('.menu-inner').show();
+		// }
 	};
 
 
