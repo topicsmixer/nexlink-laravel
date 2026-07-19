@@ -236,25 +236,29 @@
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="employee.html" role="button">
+                                <a class="menu-link {{ request()->routeIs('admin.employee-dashboard') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.employee-dashboard') }}" role="button">
                                     <i class="fi fi-rr-employee-man"></i>
                                     <span class="menu-label">Employees</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="customers.html" role="button">
+                                <a class="menu-link {{ request()->routeIs('admin.customer-dashboard') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.customer-dashboard') }}" role="button">
                                     <i class="fi fi-rr-review"></i>
                                     <span class="menu-label">Customers</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="review.html" role="button">
+                                <a class="menu-link {{ request()->routeIs('admin.review-dashboard') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.review-dashboard') }}" role="button">
                                     <i class="fi fi-rr-star"></i>
                                     <span class="menu-label">Review</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="task-management.html" role="button">
+                                <a class="menu-link {{ request()->routeIs('admin.task-management-dashboard') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.task-management-dashboard') }}" role="button">
                                     <svg width="18" height="18" viewBox="0 0 20 20" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <rect width="20" height="20" rx="6"

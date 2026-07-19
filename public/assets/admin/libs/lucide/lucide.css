@@ -1,11 +1,11 @@
 @font-face {
   font-family: "lucide";
-  src: url('lucide4081.html?t=1734687594441'); /* IE9*/
-  src: url('lucide4081.html?t=1734687594441#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("lucide4081-2.html?t=1734687594441") format("woff2"),
-  url("lucide4081-3.html?t=1734687594441") format("woff"),
-  url('lucide4081-4.html?t=1734687594441') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('lucide4081-5.html?t=1734687594441#lucide') format('svg'); /* iOS 4.1- */
+  src: url('lucide.eot?t=1734687594441'); /* IE9*/
+  src: url('lucide.eot?t=1734687594441#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("lucide.woff2?t=1734687594441") format("woff2"),
+  url("lucide.woff?t=1734687594441") format("woff"),
+  url('lucide.ttf?t=1734687594441') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('lucide.svg?t=1734687594441#lucide') format('svg'); /* iOS 4.1- */
 }
 
 [class^="icon-"], [class*=" icon-"] {

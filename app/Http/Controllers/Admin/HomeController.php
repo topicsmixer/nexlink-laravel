@@ -23,4 +23,20 @@ class HomeController extends Controller
     {
         return view('admin.dashboard.teamManagementIndex');
     }
+    public function employeeDashIndex()
+    {
+        return view('admin.dashboard.employeeIndex');
+    }
+    public function customerDashIndex()
+    {
+        return view('admin.dashboard.customerIndex');
+    }
+    public function reviewDashIndex()
+    {
+        return view('admin.dashboard.reviewIndex');
+    }
+    public function taskManagementDashIndex()
+    {
+        return view('admin.dashboard.taskManagementIndex');
+    }
 }
