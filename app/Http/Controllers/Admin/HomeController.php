@@ -39,4 +39,32 @@ class HomeController extends Controller
     {
         return view('admin.dashboard.taskManagementIndex');
     }
+    public function userManagementDashIndex()
+    {
+        return view('admin.dashboard.userManagementIndex');
+    }
+    public function activitiesDashIndex()
+    {
+        return view('admin.dashboard.activitiesIndex');
+    }
+    public function dealsDashIndex()
+    {
+        return view('admin.dashboard.dealsIndex');
+    }
+    public function aiChatIndex()
+    {
+        return view('admin.ai.chatIndex');
+    }
+    public function aiSearchChatIndex()
+    {
+        return view('admin.ai.searchChatIndex');
+    }
+    public function aiSearchImageIndex()
+    {
+        return view('admin.ai.searchImageIndex');
+    }
+    public function aiSearchAppIndex()
+    {
+        return view('admin.ai.searchAppIndex');
+    }
 }

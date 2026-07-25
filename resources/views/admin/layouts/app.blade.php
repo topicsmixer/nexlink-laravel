@@ -191,11 +191,11 @@
       </div>
     </div>
 
-    <main class="app-wrapper">
+    
 
-      @yield('content')
+    @yield('content')
 
-    </main>
+   
 
     <!--  Footer -->
     @include('admin.partials.footer')

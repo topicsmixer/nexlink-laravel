@@ -153,7 +153,7 @@
                 </a>
             </li>
             <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Ai ChatBot">
-                <a class="menu-link position-relative" href="ai/new-chat.html">
+                <a class="menu-link position-relative" href="{{ route('admin.ai-chat') }}">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                         fill="none">
                         <path
@@ -268,7 +268,8 @@
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="user-management.html" role="button">
+                                <a class="menu-link {{ request()->routeIs('admin.user-management-dashboard') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.user-management-dashboard') }}" role="button">
                                     <svg width="18" height="18" viewBox="0 0 20 20" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <rect width="20" height="20" rx="6" fill="var(--bs-info)" />
@@ -277,7 +278,8 @@
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="activities.html" role="button">
+                                <a class="menu-link {{ request()->routeIs('admin.activities-dashboard') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.activities-dashboard') }}" role="button">
                                     <svg width="18" height="18" viewBox="0 0 20 20" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <rect width="20" height="20" rx="6"
@@ -287,7 +289,8 @@
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="deals.html" role="button">
+                                <a class="menu-link {{ request()->routeIs('admin.deals-dashboard') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.deals-dashboard') }}" role="button">
                                     <svg width="18" height="18" viewBox="0 0 20 20" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <rect width="20" height="20" rx="6"

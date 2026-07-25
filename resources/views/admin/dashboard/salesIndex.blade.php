@@ -20,6 +20,7 @@
 @endpush
 
 @section('content')
+<main class="app-wrapper">
     <div class="container-fluid">
 
         <div class="app-page-head d-flex align-items-center justify-content-between">
@@ -1093,6 +1094,7 @@
         </div>
 
     </div>
+</main>
 @endsection
 
 @push('scripts')
