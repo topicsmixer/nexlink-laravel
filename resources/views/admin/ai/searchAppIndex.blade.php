@@ -35,10 +35,10 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="apps-card card card-body pb-0"
-                                style="background-image: url(./assets/images/ai/apps/bg1.png);">
+                                style="background-image: url({{ asset('assets/admin/images/ai/apps/bg1.png') }});">
                                 <div class="row">
                                     <div class="col-lg-7 col-sm-7 p-3 align-self-center">
-                                        <img src="assets/images/ai/icon/photoshop.svg" alt="" class="mb-3">
+                                        <img src="{{ asset('assets/admin/images/ai/icon/photoshop.svg') }}" alt="" class="mb-3">
                                         <div class="clearfix mb-3">
                                             <h3 class="text-white mb-2">Adobe Photoshop</h3>
                                             <p class="mb-0 text-white">Edit, enhance, and refine images</p>
@@ -46,17 +46,17 @@
                                         <a href="javascript:void(0);" class="btn btn-sm btn-dark rounded-pill">View More</a>
                                     </div>
                                     <div class="col-lg-5 col-sm-5 pt-3 align-self-end">
-                                        <img src="assets/images/ai/apps/pic1.png" alt="" class="w-100">
+                                        <img src="{{ asset('assets/admin/images/ai/apps/pic1.png') }}" alt="" class="w-100">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="apps-card card card-body pb-0"
-                                style="background-image: url(./assets/images/ai/apps/bg2.png);">
+                                style="background-image: url({{ asset('assets/admin/images/ai/apps/bg2.png') }});">
                                 <div class="row">
                                     <div class="col-lg-7 col-sm-7 p-3 align-self-center">
-                                        <img src="assets/images/ai/icon/photoshop.svg" alt="" class="mb-3">
+                                        <img src="{{ asset('assets/admin/images/ai/icon/photoshop.svg') }}" alt="" class="mb-3">
                                         <div class="clearfix mb-3">
                                             <h3 class="text-white mb-2">Adobe Photoshop</h3>
                                             <p class="mb-0 text-white">Edit, enhance, and refine images</p>
@@ -64,7 +64,7 @@
                                         <a href="javascript:void(0);" class="btn btn-sm btn-dark rounded-pill">View More</a>
                                     </div>
                                     <div class="col-lg-5 col-sm-5 pt-3 align-self-end">
-                                        <img src="assets/images/ai/apps/pic1.png" alt="" class="w-100">
+                                        <img src="{{ asset('assets/admin/images/ai/apps/pic1.png') }}" alt="" class="w-100">
                                     </div>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/photoshop.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/photoshop.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -115,7 +115,7 @@
                                                     <p class="mb-0">Edit, enhance, and refine images</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -127,7 +127,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/music.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/music.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -135,7 +135,7 @@
                                                     <p class="mb-0">Discover music and create playlists</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -147,7 +147,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/canva.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/canva.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -155,7 +155,7 @@
                                                     <p class="mb-0">Design posts, stories, and banners</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -167,7 +167,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/figma.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/figma.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -175,7 +175,7 @@
                                                     <p class="mb-0">Create diagrams, slides, and assets</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -187,7 +187,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/photoshop.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/photoshop.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -195,7 +195,7 @@
                                                     <p class="mb-0">Book tables at top restaurants</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -207,7 +207,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/spotify.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/spotify.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -215,7 +215,7 @@
                                                     <p class="mb-0">Music and podcasts, personalized for you</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -231,7 +231,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/figma.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/figma.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -239,7 +239,7 @@
                                                     <p class="mb-0">Create diagrams, slides, and assets</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -251,7 +251,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/photoshop.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/photoshop.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -259,7 +259,7 @@
                                                     <p class="mb-0">Book tables at top restaurants</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -271,7 +271,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/spotify.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/spotify.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -279,7 +279,7 @@
                                                     <p class="mb-0">Music and podcasts, personalized for you</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -291,7 +291,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/photoshop.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/photoshop.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -299,7 +299,7 @@
                                                     <p class="mb-0">Edit, enhance, and refine images</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -311,7 +311,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/music.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/music.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -319,7 +319,7 @@
                                                     <p class="mb-0">Discover music and create playlists</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -331,7 +331,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/canva.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/canva.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -339,7 +339,7 @@
                                                     <p class="mb-0">Design posts, stories, and banners</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -355,7 +355,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/photoshop.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/photoshop.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -363,7 +363,7 @@
                                                     <p class="mb-0">Edit, enhance, and refine images</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -375,7 +375,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/music.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/music.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -383,7 +383,7 @@
                                                     <p class="mb-0">Discover music and create playlists</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -395,7 +395,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/canva.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/canva.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -403,7 +403,7 @@
                                                     <p class="mb-0">Design posts, stories, and banners</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -415,7 +415,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/figma.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/figma.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -423,7 +423,7 @@
                                                     <p class="mb-0">Create diagrams, slides, and assets</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -435,7 +435,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/photoshop.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/photoshop.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -443,7 +443,7 @@
                                                     <p class="mb-0">Book tables at top restaurants</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -455,7 +455,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/spotify.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/spotify.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -463,7 +463,7 @@
                                                     <p class="mb-0">Music and podcasts, personalized for you</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -479,7 +479,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/photoshop.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/photoshop.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -487,7 +487,7 @@
                                                     <p class="mb-0">Edit, enhance, and refine images</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -499,7 +499,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/music.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/music.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -507,7 +507,7 @@
                                                     <p class="mb-0">Discover music and create playlists</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -519,7 +519,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/canva.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/canva.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -527,7 +527,7 @@
                                                     <p class="mb-0">Design posts, stories, and banners</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -539,7 +539,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/figma.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/figma.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -547,7 +547,7 @@
                                                     <p class="mb-0">Create diagrams, slides, and assets</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -559,7 +559,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/photoshop.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/photoshop.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -567,7 +567,7 @@
                                                     <p class="mb-0">Book tables at top restaurants</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -579,7 +579,7 @@
                                         <div class="card-body d-flex align-items-center p-2 pe-3">
                                             <div class="d-flex align-items-center me-auto ">
                                                 <div class="avatar avatar-xl rounded-3 me-3 border border-1 p-2">
-                                                    <img src="assets/images/ai/icon/spotify.svg" alt=""
+                                                    <img src="{{ asset('assets/admin/images/ai/icon/spotify.svg') }}" alt=""
                                                         class="img-fluid">
                                                 </div>
                                                 <div class="clearfix pe-5">
@@ -587,7 +587,7 @@
                                                     <p class="mb-0">Music and podcasts, personalized for you</p>
                                                 </div>
                                             </div>
-                                            <a href="ai/search-apps-details.html"
+                                            <a href="{{ route('admin.ai-search-app') }}"
                                                 class="btn-link stretched-link text-body">
                                                 <i class="fi fi-rr-angle-right text-xl"></i>
                                             </a>
@@ -621,7 +621,7 @@
                                 Searched:</span>
                             <ul class="list-inline search-list">
                                 <li>
-                                    <a class="search-item" href="index.html">
+                                    <a class="search-item" href="{{ route('admin.default-dashboard') }}">
                                         <i class="fi fi-rr-apps"></i> Dashboard
                                     </a>
                                 </li>

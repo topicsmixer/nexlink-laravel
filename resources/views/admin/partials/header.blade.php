@@ -187,7 +187,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="calendar.html" class="btn btn-icon btn-action-gray rounded-circle waves-effect waves-light">
+                <a href="{{ route('admin.calendar') }}" class="btn btn-icon btn-action-gray rounded-circle waves-effect waves-light">
                     <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -248,7 +248,7 @@
                         <div class="dropdown-divider my-1"></div>
                     </li>
                     <li>
-                        <a class="dropdown-item d-flex align-items-center gap-2" href="profile.html">
+                        <a class="dropdown-item d-flex align-items-center gap-2" href="{{ route('admin.profile') }}">
                             <i class="fi fi-rr-user scale-1x"></i> View Profile
                         </a>
                     </li>

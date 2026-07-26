@@ -316,7 +316,7 @@
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="calendar.html">
+                                <a class="menu-link" href="{{ route('admin.calendar') }}">
                                     <i class="fi fi-rr-calendar"></i>
                                     <span class="menu-label">Calendar</span>
                                 </a>

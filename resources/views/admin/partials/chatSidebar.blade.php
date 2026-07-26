@@ -37,13 +37,13 @@
                 <span class="menu-label">Projects</span>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="http://../ai/new-project.html">
+                <a class="menu-link" href="{{ route('admin.ai-new-project') }}">
                     <i class="fi fi-rr-add-folder"></i>
                     <span class="menu-label">New Project</span>
                 </a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="http://../ai/investment.html">
+                <a class="menu-link" href="{{ route('admin.ai-investment') }}">
                     <i class="fi fi-rr-usd-circle"></i>
                     <span class="menu-label">Investment</span>
                 </a>
@@ -55,67 +55,67 @@
                 <span class="menu-label">Your Chats</span>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="http://../ai/your-chat.html">
+                <a class="menu-link" href="{{ route('admin.ai-your-chat') }}">
                     <span class="menu-label">Chat</span>
                 </a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="http://../ai/your-chat.html">
+                <a class="menu-link" href="{{ route('admin.ai-your-chat') }}">
                     <span class="menu-label">Gallery Image Genrate</span>
                 </a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="http://../ai/your-chat.html">
+                <a class="menu-link" href="{{ route('admin.ai-your-chat') }}">
                     <span class="menu-label">Ai Video Genrate</span>
                 </a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="http://../ai/your-chat.html">
+                <a class="menu-link" href="{{ route('admin.ai-your-chat') }}">
                     <span class="menu-label">Gallery Image Genrate</span>
                 </a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="http://../ai/your-chat.html">
+                <a class="menu-link" href="{{ route('admin.ai-your-chat') }}">
                     <span class="menu-label">Ai Video Genrate</span>
                 </a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="http://../ai/your-chat.html">
+                <a class="menu-link" href="{{ route('admin.ai-your-chat') }}">
                     <span class="menu-label">Gallery Image Genrate</span>
                 </a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="http://../ai/your-chat.html">
+                <a class="menu-link" href="{{ route('admin.ai-your-chat') }}">
                     <span class="menu-label">Ai Video Genrate</span>
                 </a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="http://../ai/your-chat.html">
+                <a class="menu-link" href="{{ route('admin.ai-your-chat') }}">
                     <span class="menu-label">Ai Video Genrate</span>
                 </a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="http://../ai/your-chat.html">
+                <a class="menu-link" href="{{ route('admin.ai-your-chat') }}">
                     <span class="menu-label">Gallery Image Genrate</span>
                 </a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="http://../ai/your-chat.html">
+                <a class="menu-link" href="{{ route('admin.ai-your-chat') }}">
                     <span class="menu-label">Ai Video Genrate</span>
                 </a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="http://../ai/your-chat.html">
+                <a class="menu-link" href="{{ route('admin.ai-your-chat') }}">
                     <span class="menu-label">Ai Video Genrate</span>
                 </a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="http://../ai/your-chat.html">
+                <a class="menu-link" href="{{ route('admin.ai-your-chat') }}">
                     <span class="menu-label">Gallery Image Genrate</span>
                 </a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="http://../ai/your-chat.html">
+                <a class="menu-link" href="{{ route('admin.ai-your-chat') }}">
                     <span class="menu-label">Ai Video Genrate</span>
                 </a>
             </li>
@@ -132,7 +132,7 @@
                     <span class="text-2xs d-block">Free</span>
                 </div>
             </div>
-            <a href="http://../profile.html" class="btn-link stretched-link text-body">
+            <a href="{{ route('admin.profile') }}" class="btn-link stretched-link text-body">
                 <i class="fi fi-rr-angle-right"></i>
             </a>
         </div>

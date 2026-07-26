@@ -1,6 +1,6 @@
 @extends('admin.layouts.chat')
 
-@section('title', 'AI Search Chat')
+@section('title', 'AI New Project')
 
 @push('styles')
     <!--  Required Stylesheet -->
@@ -19,72 +19,50 @@
 
 @section('content')
     <main class="app-wrapper ai-wrapper">
-
         <div class="container-fluid">
-
             <div class="ai-frame-wrapper">
                 <div class="inner-wrap">
                     <div class="row justify-content-center">
                         <div class="col-xxl-6 col-lg-8 align-self-center">
-                            <div class="card overflow-hidden">
-                                <div class="card-header border-0">
-                                    <form class="d-flex align-items-center h-100 position-relative" action="#">
+                            <div class="card">
+                                <div class="card-header border-0 d-flex align-items-center justify-content-between pb-0">
+                                    <h5 class="card-title mb-0">Create Projects</h5>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-icon btn-light border-0">
+                                            <i class="fi fi-rr-settings"></i>
+                                        </a>
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-icon btn-light border-0">
+                                            <i class="icon-x"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <form class="d-flex align-items-center h-100 position-relative mb-3" action="#">
                                         <button type="button"
                                             class="btn btn-sm border-0 position-absolute start-0 ms-3 p-0">
                                             <i class="fi fi-rr-search"></i>
                                         </button>
                                         <input type="text" class="form-control form-control-fill ps-5 bg-light"
-                                            placeholder="Search anything…" data-bs-toggle="modal"
+                                            placeholder="e.g. Copenhagen Trip" data-bs-toggle="modal"
                                             data-bs-target="#searchResultsModal">
                                     </form>
-                                </div>
-                                <div class="card-body gradient-layer" style="height: 400px;" data-simplebar>
-                                    <a href="javascript:void(0);"
-                                        class="btn btn-light d-flex align-items-center rounded px-3 mb-3">
-                                        <i class="fi fi-rr-edit me-2"></i>
-                                        <span>New Chat</span>
-                                    </a>
-                                    <div class="mb-3">
-                                        <p class="mb-3">Today</p>
-                                        <a href="javascript:void(0);"
-                                            class="btn btn-light d-flex align-items-center rounded px-3">
-                                            <i class="fi fi-rr-comment-alt me-2"></i>
-                                            <span>AI dashboard color palette</span>
-                                        </a>
+                                    <div class="d-flex flex-wrap align-items-center gap-2 mb-4">
+                                        <span class="badge rounded-pill text-bg-light">Investing</span>
+                                        <span class="badge rounded-pill text-bg-light">Homework</span>
+                                        <span class="badge rounded-pill text-bg-light">Writing</span>
+                                        <span class="badge rounded-pill text-bg-light">Health</span>
+                                        <span class="badge rounded-pill text-bg-light">Research</span>
+                                        <span class="badge rounded-pill text-bg-light">Business</span>
+                                        <span class="badge rounded-pill text-bg-light">Design</span>
+                                        <span class="badge rounded-pill text-bg-light">Marketing</span>
                                     </div>
-                                    <div class="mb-3">
-                                        <p class="mb-3">Yesterday</p>
-                                        <a href="javascript:void(0);"
-                                            class="btn btn-light d-flex align-items-center rounded px-3 mb-2">
-                                            <i class="fi fi-rr-comment-alt me-2"></i>
-                                            <span>Pricing table UX improvement</span>
-                                        </a>
-                                        <a href="javascript:void(0);"
-                                            class="btn btn-light d-flex align-items-center rounded px-3 mb-2">
-                                            <i class="fi fi-rr-comment-alt me-2"></i>
-                                            <span>Dark mode UI guidelines</span>
-                                        </a>
-                                        <a href="javascript:void(0);"
-                                            class="btn btn-light d-flex align-items-center rounded px-3 mb-2">
-                                            <i class="fi fi-rr-comment-alt me-2"></i>
-                                            <span>Landing page copywriting</span>
-                                        </a>
-                                        <a href="javascript:void(0);"
-                                            class="btn btn-light d-flex align-items-center rounded px-3 mb-2">
-                                            <i class="fi fi-rr-comment-alt me-2"></i>
-                                            <span>Pricing table UX improvement</span>
-                                        </a>
-                                        <a href="javascript:void(0);"
-                                            class="btn btn-light d-flex align-items-center rounded px-3 mb-2">
-                                            <i class="fi fi-rr-comment-alt me-2"></i>
-                                            <span>Dark mode UI guidelines</span>
-                                        </a>
-                                        <a href="javascript:void(0);"
-                                            class="btn btn-light d-flex align-items-center rounded px-3 mb-2">
-                                            <i class="fi fi-rr-comment-alt me-2"></i>
-                                            <span>Landing page copywriting</span>
-                                        </a>
+                                    <div class="alert alert-primary" role="alert">
+                                        <i class="fi fi-sr-star me-1"></i>
+                                        Projects keep chats, files, and custom instructions in one place. Use projects to
+                                        stay organized and focused on long-term work.
                                     </div>
+                                    <button type="button" class="btn btn-primary waves-effect waves-light">Create
+                                        Projects</button>
                                 </div>
                             </div>
                         </div>

@@ -67,4 +67,24 @@ class HomeController extends Controller
     {
         return view('admin.ai.searchAppIndex');
     }
+    public function aiNewProjectIndex()
+    {
+        return view('admin.ai.newProjectIndex');
+    }
+    public function aiInvestmentIndex()
+    {
+        return view('admin.ai.investmentIndex');
+    }
+    public function aiYourChatIndex()
+    {
+        return view('admin.ai.yourChatIndex');
+    }
+    public function profileIndex()
+    {
+        return view('admin.profile.index');
+    }
+    public function calendarIndex()
+    {
+        return view('admin.calendar.index');
+    }
 }
