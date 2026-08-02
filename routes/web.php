@@ -36,6 +36,12 @@ Route::group([
     // Calendar routes
     Route::get('/calendar', [HomeController::class, 'calendarIndex'])->name('calendar');
 
+    // Chat routes
+    Route::get('/chat', [HomeController::class, 'chatIndex'])->name('chat');
+
+    // Email routes
+    Route::get('/email/inbox', [HomeController::class, 'emailInbox'])->name('email.inbox');
+
     // Ai Chat route
     Route::get('/ai-chat', [HomeController::class, 'aiChatIndex'])->name('ai-chat');
     Route::get('/ai-search-chat', [HomeController::class, 'aiSearchChatIndex'])->name('ai-search-chat');

@@ -87,4 +87,12 @@ class HomeController extends Controller
     {
         return view('admin.calendar.index');
     }
+    public function chatIndex()
+    {
+        return view('admin.chat.index');
+    }
+    public function emailInbox()
+    {
+        return view('admin.email.inbox');
+    }
 }

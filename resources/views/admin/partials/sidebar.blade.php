@@ -7,7 +7,7 @@
     <div class="app-navbar-tabs" data-simplebar>
         <ul class="nav" id="appMenubarTabs" role="tablist" aria-orientation="vertical">
             <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Dashboard">
-                <a class="menu-link active" href="#dashboardTab" role="tab" aria-controls="dashboardTab"
+                <a class="menu-link {{ $sidebar['dashboard'] ? 'active' : '' }}" href="#dashboardTab" role="tab" aria-controls="dashboardTab"
                     aria-selected="true" data-bs-toggle="tab">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -19,7 +19,7 @@
                 </a>
             </li>
             <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Apps">
-                <a class="menu-link" href="#appsTab" role="tab" aria-controls="appsTab" aria-selected="false"
+                <a class="menu-link {{ $sidebar['apps'] ? 'active' : '' }}" href="#appsTab" role="tab" aria-controls="appsTab" aria-selected="false"
                     data-bs-toggle="tab">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -153,7 +153,7 @@
                 </a>
             </li>
             <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Ai ChatBot">
-                <a class="menu-link position-relative" href="{{ route('admin.ai-chat') }}">
+                <a class="menu-link position-relative" href="{{ route('admin.ai-chat') }}" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                         fill="none">
                         <path
@@ -201,7 +201,7 @@
         </div>
         <div class="app-content-inner">
             <div class="tab-content" id="appMenubarTabsContent">
-                <div class="tab-pane fade show active" id="dashboardTab" role="tabpanel" tabindex="0">
+                <div class="tab-pane fade {{ $sidebar['dashboard'] ? 'show active' : '' }}" id="dashboardTab" role="tabpanel" tabindex="0">
                     <nav class="app-navbar" data-simplebar>
                         <ul class="side-menubar">
                             <li class="menu-heading">
@@ -303,20 +303,22 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="tab-pane fade" id="appsTab" role="tabpanel" tabindex="0">
+                <div class="tab-pane fade {{ $sidebar['apps'] ? 'show active' : '' }}" id="appsTab" role="tabpanel" tabindex="0">
                     <nav class="app-navbar" data-simplebar>
                         <ul class="side-menubar">
                             <li class="menu-heading">
                                 <span class="menu-label">Apps</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="chat.html">
+                                <a class="menu-link {{ request()->routeIs('admin.chat') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.chat') }}">
                                     <i class="fi fi-rr-comment"></i>
                                     <span class="menu-label">Chat</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="{{ route('admin.calendar') }}">
+                                <a class="menu-link {{ request()->routeIs('admin.calendar') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.calendar') }}">
                                     <i class="fi fi-rr-calendar"></i>
                                     <span class="menu-label">Calendar</span>
                                 </a>
@@ -328,7 +330,8 @@
                                 <span class="menu-label">Email</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="email/inbox.html">
+                                <a class="menu-link {{ request()->routeIs('admin.email.inbox') ? 'open active' : '' }}"
+                                     href="{{ route('admin.email.inbox') }}">
                                     <i class="fi fi-rr-inbox-in"></i>
                                     <span class="menu-label">Inbox</span>
                                 </a>
