@@ -95,4 +95,8 @@ class HomeController extends Controller
     {
         return view('admin.email.inbox');
     }
+    public function emailCompose()
+    {
+        return view('admin.email.compose');
+    }
 }

@@ -72,7 +72,7 @@
                   <a href="#archive-tab" class="mail-nav-item" data-bs-toggle="tab" data-bs-target="#archive-tab" role="tab" aria-controls="archive-tab" aria-selected="false">
                     <i class="fi fi-rr-box me-2"></i> Archive
                   </a>
-                  <a href="http://../calendar.html" class="mail-nav-item">
+                  <a href="{{ route('admin.calendar') }}" class="mail-nav-item">
                     <i class="fi fi-rr-calendar me-2"></i> Scheduled
                   </a>
                 </div>

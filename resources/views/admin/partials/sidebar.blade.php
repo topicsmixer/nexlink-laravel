@@ -337,7 +337,8 @@
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="email/compose.html">
+                                <a class="menu-link {{ request()->routeIs('admin.email.compose') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.email.compose') }}">
                                     <i class="fi fi-rr-pen-field"></i>
                                     <span class="menu-label">Compose</span>
                                 </a>

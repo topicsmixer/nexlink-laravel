@@ -41,6 +41,7 @@ Route::group([
 
     // Email routes
     Route::get('/email/inbox', [HomeController::class, 'emailInbox'])->name('email.inbox');
+    Route::get('/email/compose', [HomeController::class, 'emailCompose'])->name('email.compose');
 
     // Ai Chat route
     Route::get('/ai-chat', [HomeController::class, 'aiChatIndex'])->name('ai-chat');

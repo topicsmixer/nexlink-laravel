@@ -27,6 +27,7 @@ class SidebarComposer
                 'admin.chat',
                 'admin.calendar',
                 'admin.email.inbox',
+                'admin.email.compose',
             ]),
         ];
 
