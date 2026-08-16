@@ -42,6 +42,17 @@ Route::group([
     // Email routes
     Route::get('/email/inbox', [HomeController::class, 'emailInbox'])->name('email.inbox');
     Route::get('/email/compose', [HomeController::class, 'emailCompose'])->name('email.compose');
+    Route::get('/email/read-email', [HomeController::class, 'readEmail'])->name('email.read-email');
+
+    // Pages routes
+    Route::get('/pages/pricing', [HomeController::class, 'pricing'])->name('pages.pricing');
+    // Pages blog rotues 
+    Route::get('/pages/blog', [HomeController::class, 'blog'])->name('pages.blog');
+    Route::get('/pages/blog-list', [HomeController::class, 'blogList'])->name('pages.blog-list');
+    Route::get('/pages/blog-details', [HomeController::class, 'blogDetails'])->name('pages.blog-details');
+    // Pages Error 
+    Route::get('/pages/error-404', [HomeController::class, 'Error404'])->name('pages.Error404');
+
 
     // Ai Chat route
     Route::get('/ai-chat', [HomeController::class, 'aiChatIndex'])->name('ai-chat');

@@ -99,4 +99,28 @@ class HomeController extends Controller
     {
         return view('admin.email.compose');
     }
+    public function readEmail()
+    {
+        return view('admin.email.readEmail');
+    }
+    public function pricing()
+    {
+        return view('admin.pages.pricing');
+    }
+    public function blog()
+    {
+        return view('admin.pages.blog');
+    }
+    public function blogList()
+    {
+        return view('admin.pages.blogList');
+    }
+    public function blogDetails()
+    {
+        return view('admin.pages.blogDetails');
+    }
+    public function Error404()
+    {
+        return view('admin.pages.Error404');
+    }
 }

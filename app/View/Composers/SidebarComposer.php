@@ -28,6 +28,15 @@ class SidebarComposer
                 'admin.calendar',
                 'admin.email.inbox',
                 'admin.email.compose',
+                'admin.email.read-email'
+            ]),
+
+            'pages' => request()->routeIs([
+                'admin.pages.pricing',
+                'admin.pages.blog',
+                'admin.pages.blog-list',
+                'admin.pages.blog-details',
+                'admin.pages.Error404'
             ]),
         ];
 

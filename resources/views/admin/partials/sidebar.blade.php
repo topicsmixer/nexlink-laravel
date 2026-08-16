@@ -32,7 +32,7 @@
                 </a>
             </li>
             <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Pages">
-                <a class="menu-link" href="#pagesTab" role="tab" aria-controls="pagesTab" aria-selected="false"
+                <a class="menu-link {{ $sidebar['pages'] ? 'active' : '' }}" href="#pagesTab" role="tab" aria-controls="pagesTab" aria-selected="false"
                     data-bs-toggle="tab">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -344,7 +344,8 @@
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="email/read-email.html">
+                                <a class="menu-link {{ request()->routeIs('admin.email.read-email') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.email.read-email') }}">
                                     <i class="fi fi-rr-envelope"></i>
                                     <span class="menu-label">Read email</span>
                                 </a>
@@ -352,14 +353,15 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="tab-pane fade" id="pagesTab" role="tabpanel" tabindex="0">
+                <div class="tab-pane fade {{ $sidebar['pages'] ? 'show active' : '' }}" id="pagesTab" role="tabpanel" tabindex="0">
                     <nav class="app-navbar" data-simplebar>
                         <ul class="side-menubar">
                             <li class="menu-heading">
                                 <span class="menu-label">Pages</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="pages/pricing.html">
+                                <a class="menu-link {{ request()->routeIs('admin.pages.pricing') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.pages.pricing') }}">
                                     <i class="fi fi-rs-usd-circle"></i>
                                     <span class="menu-label">Pricing</span>
                                 </a>
@@ -371,19 +373,22 @@
                                 <span class="menu-label">Blog</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="pages/blog.html">
+                                <a class="menu-link {{ request()->routeIs('admin.pages.blog') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.pages.blog') }}">
                                     <i class="fi fi-rr-blog-text"></i>
                                     <span class="menu-label">Blog Grid</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="pages/blog-list.html">
+                                <a class="menu-link {{ request()->routeIs('admin.pages.blog-list') ? 'open active' : '' }}"
+                                     href="{{ route('admin.pages.blog-list') }}">
                                     <i class="fi fi-rr-blog-text"></i>
                                     <span class="menu-label">Blog List</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="pages/blog-details.html">
+                                <a class="menu-link {{ request()->routeIs('admin.pages.blog-details') ? 'open active' : '' }}"
+                                     href="{{ route('admin.pages.blog-details') }}">
                                     <i class="fi fi-rr-blog-text"></i>
                                     <span class="menu-label">Blog Details</span>
                                 </a>
@@ -395,7 +400,8 @@
                                 <span class="menu-label">Error</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="pages/error-404.html">
+                                <a class="menu-link {{ request()->routeIs('admin.pages.Error404') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.pages.Error404') }}">
                                     <i class="fi fi-rs-404"></i>
                                     <span class="menu-label">Basic</span>
                                 </a>
