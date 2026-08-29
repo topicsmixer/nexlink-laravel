@@ -400,20 +400,22 @@
                                 <span class="menu-label">Error</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link {{ request()->routeIs('admin.pages.Error404') ? 'open active' : '' }}" 
-                                    href="{{ route('admin.pages.Error404') }}">
+                                <a class="menu-link {{ request()->routeIs('admin.pages.error404') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.pages.error404') }}">
                                     <i class="fi fi-rs-404"></i>
                                     <span class="menu-label">Basic</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="pages/error-404-cover.html">
+                                <a class="menu-link" 
+                                    href="{{ route('admin.pages.error404-cover') }}">
                                     <i class="fi fi-rs-404"></i>
                                     <span class="menu-label">Cover</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="pages/error-404-full.html">
+                                <a class="menu-link" 
+                                    href="{{ route('admin.pages.error404-full') }}">
                                     <i class="fi fi-rs-404"></i>
                                     <span class="menu-label">Full</span>
                                 </a>
@@ -425,19 +427,20 @@
                                 <span class="menu-label">Under Construction</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="pages/under-construction.html">
+                                <a class="menu-link {{ request()->routeIs('admin.pages.under-construction') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.pages.under-construction') }}">
                                     <i class="fi fi-rr-under-construction"></i>
                                     <span class="menu-label">Basic</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="pages/under-construction-cover.html">
+                                <a class="menu-link" href="{{ route('admin.pages.under-construction-cover') }}">
                                     <i class="fi fi-rr-under-construction"></i>
                                     <span class="menu-label">Cover</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="pages/under-construction-full.html">
+                                <a class="menu-link" href="{{ route('admin.pages.under-construction-full') }}">
                                     <i class="fi fi-rr-under-construction"></i>
                                     <span class="menu-label">Full</span>
                                 </a>

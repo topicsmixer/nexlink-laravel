@@ -51,7 +51,13 @@ Route::group([
     Route::get('/pages/blog-list', [HomeController::class, 'blogList'])->name('pages.blog-list');
     Route::get('/pages/blog-details', [HomeController::class, 'blogDetails'])->name('pages.blog-details');
     // Pages Error 
-    Route::get('/pages/error-404', [HomeController::class, 'Error404'])->name('pages.Error404');
+    Route::get('/pages/error-404', [HomeController::class, 'error404'])->name('pages.error404');
+    Route::get('/pages/error-404-cover', [HomeController::class, 'error404Cover'])->name('pages.error404-cover');
+    Route::get('/pages/error-404-full', [HomeController::class, 'error404Full'])->name('pages.error404-full');
+    // Under Construction 
+    Route::get('/pages/under-construction', [HomeController::class, 'underConstruction'])->name('pages.under-construction');
+    Route::get('/pages/under-construction-cover', [HomeController::class, 'underConstructionCover'])->name('pages.under-construction-cover');
+    Route::get('/pages/under-construction-full', [HomeController::class, 'underConstructionFull'])->name('pages.under-construction-full');
 
 
     // Ai Chat route

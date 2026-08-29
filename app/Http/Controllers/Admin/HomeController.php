@@ -119,8 +119,28 @@ class HomeController extends Controller
     {
         return view('admin.pages.blogDetails');
     }
-    public function Error404()
+    public function error404()
     {
-        return view('admin.pages.Error404');
+        return view('admin.pages.error404');
+    }
+    public function error404Cover()
+    {
+        return view('admin.pages.error404Cover');
+    }
+    public function error404Full()
+    {
+        return view('admin.pages.error404Full');
+    }
+    public function underConstruction()
+    {
+        return view('admin.pages.underConstruction');
+    }
+    public function underConstructionCover()
+    {
+        return view('admin.pages.underConstructionCover');
+    }
+    public function underConstructionFull()
+    {
+        return view('admin.pages.underConstructionFull');
     }
 }

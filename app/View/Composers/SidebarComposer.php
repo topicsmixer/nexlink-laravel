@@ -36,7 +36,12 @@ class SidebarComposer
                 'admin.pages.blog',
                 'admin.pages.blog-list',
                 'admin.pages.blog-details',
-                'admin.pages.Error404'
+                'admin.pages.error404',
+                'admin.pages.error404-cover',
+                'admin.pages.error404-full',
+                'admin.pages.under-construction',
+                'admin.pages.under-construction-cover',
+                'admin.pages.under-construction-full'
             ]),
         ];
 
