@@ -58,6 +58,19 @@ Route::group([
     Route::get('/pages/under-construction', [HomeController::class, 'underConstruction'])->name('pages.under-construction');
     Route::get('/pages/under-construction-cover', [HomeController::class, 'underConstructionCover'])->name('pages.under-construction-cover');
     Route::get('/pages/under-construction-full', [HomeController::class, 'underConstructionFull'])->name('pages.under-construction-full');
+    // Authentication
+    Route::get('/authentication/login-basic', [HomeController::class, 'loginBasic'])->name('authentication.login-basic');
+    Route::get('/authentication/login-cover', [HomeController::class, 'loginCover'])->name('authentication.login-cover');
+    Route::get('/authentication/login-frame', [HomeController::class, 'loginFrame'])->name('authentication.login-frame');
+    Route::get('/authentication/register-basic', [HomeController::class, 'registerBasic'])->name('authentication.register-basic');
+    Route::get('/authentication/register-cover', [HomeController::class, 'registerCover'])->name('authentication.register-cover');
+    Route::get('/authentication/register-frame', [HomeController::class, 'registerFrame'])->name('authentication.register-frame');
+    Route::get('/authentication/forgot-password-basic', [HomeController::class, 'forgotPasswordBasic'])->name('authentication.forgot-password-basic');
+    Route::get('/authentication/forgot-password-cover', [HomeController::class, 'forgotPasswordCover'])->name('authentication.forgot-password-cover');
+    Route::get('/authentication/forgot-password-frame', [HomeController::class, 'forgotPasswordFrame'])->name('authentication.forgot-password-frame');
+    Route::get('/authentication/new-password-basic', [HomeController::class, 'newPasswordBasic'])->name('authentication.new-password-basic');
+    Route::get('/authentication/new-password-cover', [HomeController::class, 'newPasswordCover'])->name('authentication.new-password-cover');
+    Route::get('/authentication/new-password-frame', [HomeController::class, 'newPasswordFrame'])->name('authentication.new-password-frame');
 
 
     // Ai Chat route

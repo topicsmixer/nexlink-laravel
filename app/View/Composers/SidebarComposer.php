@@ -43,6 +43,20 @@ class SidebarComposer
                 'admin.pages.under-construction-cover',
                 'admin.pages.under-construction-full'
             ]),
+            'authentication' => request()->routeIs([
+                'admin.authentication.login-basic',
+                'admin.authentication.login-cover',
+                'admin.authentication.login-frame',
+                'admin.authentication.register-basic',
+                'admin.authentication.register-cover',
+                'admin.authentication.register-frame',
+                'admin.authentication.forgot-password-basic',
+                'admin.authentication.forgot-password-cover',
+                'admin.authentication.forgot-password-frame',
+                'admin.authentication.new-password-basic',
+                'admin.authentication.new-password-cover',
+                'admin.authentication.new-password-frame'
+            ]),
         ];
 
         $view->with('sidebar', $sidebar);

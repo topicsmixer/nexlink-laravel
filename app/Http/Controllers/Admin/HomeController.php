@@ -143,4 +143,52 @@ class HomeController extends Controller
     {
         return view('admin.pages.underConstructionFull');
     }
+    public function loginBasic()
+    {
+        return view('admin.authentication.loginBasic');
+    }
+    public function loginCover()
+    {
+        return view('admin.authentication.loginCover');
+    }
+    public function loginFrame()
+    {
+        return view('admin.authentication.loginFrame');
+    }
+    public function registerBasic()
+    {
+        return view('admin.authentication.registerBasic');
+    }
+    public function registerCover()
+    {
+        return view('admin.authentication.registerCover');
+    }
+    public function registerFrame()
+    {
+        return view('admin.authentication.registerFrame');
+    }
+    public function forgotPasswordBasic()
+    {
+        return view('admin.authentication.forgotPasswordBasic');
+    }
+    public function forgotPasswordCover()
+    {
+        return view('admin.authentication.forgotPasswordCover');
+    }
+    public function forgotPasswordFrame()
+    {
+        return view('admin.authentication.forgotPasswordFrame');
+    }
+    public function newPasswordBasic()
+    {
+        return view('admin.authentication.newPasswordBasic');
+    }
+    public function newPasswordCover()
+    {
+        return view('admin.authentication.newPasswordCover');
+    }
+    public function newPasswordFrame()
+    {
+        return view('admin.authentication.newPasswordFrame');
+    }
 }

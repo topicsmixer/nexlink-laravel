@@ -50,7 +50,7 @@
             </li>
             <li class="nav-item-hr"></li>
             <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Authentication">
-                <a class="menu-link" href="#authenticationTab" role="tab" aria-controls="authenticationTab"
+                <a class="menu-link {{ $sidebar['authentication'] ? 'active' : '' }}" href="#authenticationTab" role="tab" aria-controls="authenticationTab"
                     aria-selected="false" data-bs-toggle="tab">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -448,26 +448,26 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="tab-pane fade" id="authenticationTab" role="tabpanel" tabindex="0">
+                <div class="tab-pane fade {{ $sidebar['authentication'] ? 'show active' : '' }}" id="authenticationTab" role="tabpanel" tabindex="0">
                     <nav class="app-navbar" data-simplebar>
                         <ul class="side-menubar">
                             <li class="menu-heading">
                                 <span class="menu-label">Login</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="authentication/login-basic.html">
+                                <a class="menu-link" href="{{ route('admin.authentication.login-basic') }}">
                                     <i class="fi fi-rr-unlock"></i>
                                     <span class="menu-label">Basic</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="authentication/login-cover.html">
+                                <a class="menu-link" href="{{ route('admin.authentication.login-cover') }}">
                                     <i class="fi fi-rr-unlock"></i>
                                     <span class="menu-label">Cover</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="authentication/login-frame.html">
+                                <a class="menu-link" href="{{ route('admin.authentication.login-frame') }}">
                                     <i class="fi fi-rr-unlock"></i>
                                     <span class="menu-label">Frame</span>
                                 </a>
@@ -479,19 +479,19 @@
                                 <span class="menu-label">Register</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="authentication/register-basic.html">
+                                <a class="menu-link" href="{{ route('admin.authentication.register-basic') }}">
                                     <i class="fi fi-rr-enter"></i>
                                     <span class="menu-label">Basic</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="authentication/register-cover.html">
+                                <a class="menu-link" href="{{ route('admin.authentication.register-cover') }}">
                                     <i class="fi fi-rr-enter"></i>
                                     <span class="menu-label">Cover</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="authentication/register-frame.html">
+                                <a class="menu-link" href="{{ route('admin.authentication.register-frame') }}">
                                     <i class="fi fi-rr-enter"></i>
                                     <span class="menu-label">Frame</span>
                                 </a>
@@ -503,19 +503,19 @@
                                 <span class="menu-label">Forgot Password</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="authentication/forgot-password-basic.html">
+                                <a class="menu-link" href="{{ route('admin.authentication.forgot-password-basic') }}">
                                     <i class="fi fi-rs-otp"></i>
                                     <span class="menu-label">Basic</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="authentication/forgot-password-cover.html">
+                                <a class="menu-link" href="{{ route('admin.authentication.forgot-password-cover') }}">
                                     <i class="fi fi-rs-otp"></i>
                                     <span class="menu-label">Cover</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="authentication/forgot-password-frame.html">
+                                <a class="menu-link" href="{{ route('admin.authentication.forgot-password-frame') }}">
                                     <i class="fi fi-rs-otp"></i>
                                     <span class="menu-label">Frame</span>
                                 </a>
@@ -527,19 +527,19 @@
                                 <span class="menu-label">New Password</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="authentication/new-password-basic.html">
+                                <a class="menu-link" href="{{ route('admin.authentication.new-password-basic') }}">
                                     <i class="fi fi-rr-password-alt"></i>
                                     <span class="menu-label">Basic</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="authentication/new-password-cover.html">
+                                <a class="menu-link" href="{{ route('admin.authentication.new-password-cover') }}">
                                     <i class="fi fi-rr-password-alt"></i>
                                     <span class="menu-label">Cover</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="authentication/new-password-frame.html">
+                                <a class="menu-link" href="{{ route('admin.authentication.new-password-frame') }}">
                                     <i class="fi fi-rr-password-alt"></i>
                                     <span class="menu-label">Frame</span>
                                 </a>
