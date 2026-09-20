@@ -547,86 +547,99 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="tab-pane fade" id="componentsTab" role="tabpanel" tabindex="0">
+                <div class="tab-pane fade {{ $sidebar['components'] ? 'show active' : '' }}" id="componentsTab" role="tabpanel" tabindex="0">
                     <nav class="app-navbar" data-simplebar>
                         <ul class="side-menubar">
                             <li class="menu-heading">
                                 <span class="menu-label">UI Components</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/accordion.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.accordion') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.accordion') }}">
                                     <i class="fi fi-rr-flux-capacitor"></i>
                                     <span class="menu-label">Accordion</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/alerts.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.alerts') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.alerts') }}">
                                     <i class="fi fi-rs-bell"></i>
                                     <span class="menu-label">Alerts</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/badge.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.badge') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.badge') }}">
                                     <i class="fi fi-rr-tags"></i>
                                     <span class="menu-label">Badge</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/breadcrumb.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.breadcrumb') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.breadcrumb') }}">
                                     <i class="fi fi-rr-flux-capacitor"></i>
                                     <span class="menu-label">Breadcrumb</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/buttons.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.buttons') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.buttons') }}">
                                     <i class="fi fi-rr-toggle-on"></i>
                                     <span class="menu-label">Buttons</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/typography.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.typography') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.typography') }}">
                                     <i class="fi fi-rr-text"></i>
                                     <span class="menu-label">Typography</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/button-group.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.button-group') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.button-group') }}">
                                     <i class="fi fi-rr-toggle-on"></i>
                                     <span class="menu-label">Button Group</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/card.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.card') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.card') }}">
                                     <i class="fi fi-rr-credit-card"></i>
                                     <span class="menu-label">Card</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/collapse.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.collapse') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.collapse') }}">
                                     <i class="fi fi-rr-flux-capacitor"></i>
                                     <span class="menu-label">Collapse</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/carousel.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.carousel') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.carousel') }}">
                                     <i class="fi fi-rr-flux-capacitor"></i>
                                     <span class="menu-label">Carousel</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/dropdowns.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.dropdowns') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.dropdowns') }}">
                                     <i class="fi fi-rs-settings-sliders"></i>
                                     <span class="menu-label">Dropdowns</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/modal.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.modal') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.modal') }}">
                                     <i class="fi fi-rr-flux-capacitor"></i>
                                     <span class="menu-label">Modal</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/navbar.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.navbar') ? 'open active' : '' }}"
+                                    href="{{ route('admin.ui-components.navbar') }}">
                                     <i class="fi fi-rr-flux-capacitor"></i>
                                     <span class="menu-label">Navbar</span>
                                 </a>

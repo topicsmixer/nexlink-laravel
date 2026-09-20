@@ -71,6 +71,20 @@ Route::group([
     Route::get('/authentication/new-password-basic', [HomeController::class, 'newPasswordBasic'])->name('authentication.new-password-basic');
     Route::get('/authentication/new-password-cover', [HomeController::class, 'newPasswordCover'])->name('authentication.new-password-cover');
     Route::get('/authentication/new-password-frame', [HomeController::class, 'newPasswordFrame'])->name('authentication.new-password-frame');
+    // Components 
+    Route::get('/components/accordion', [HomeController::class, 'accordion'])->name('ui-components.accordion');
+    Route::get('/components/alerts', [HomeController::class, 'alerts'])->name('ui-components.alerts');
+    Route::get('/components/badge', [HomeController::class, 'badge'])->name('ui-components.badge');
+    Route::get('/components/breadcrumb', [HomeController::class, 'breadcrumb'])->name('ui-components.breadcrumb');
+    Route::get('/components/buttons', [HomeController::class, 'buttons'])->name('ui-components.buttons');
+    Route::get('/components/typography', [HomeController::class, 'typography'])->name('ui-components.typography');
+    Route::get('/components/button-group', [HomeController::class, 'buttonGroup'])->name('ui-components.button-group');
+    Route::get('/components/card', [HomeController::class, 'card'])->name('ui-components.card');
+    Route::get('/components/collapse', [HomeController::class, 'collapse'])->name('ui-components.collapse');
+    Route::get('/components/carousel', [HomeController::class, 'carousel'])->name('ui-components.carousel');
+    Route::get('/components/dropdowns', [HomeController::class, 'dropdowns'])->name('ui-components.dropdowns');
+    Route::get('/components/modal', [HomeController::class, 'modal'])->name('ui-components.modal');
+    Route::get('/components/navbar', [HomeController::class, 'navbar'])->name('ui-components.navbar');
 
 
     // Ai Chat route

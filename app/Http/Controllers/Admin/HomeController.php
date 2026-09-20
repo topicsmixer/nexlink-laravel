@@ -191,4 +191,56 @@ class HomeController extends Controller
     {
         return view('admin.authentication.newPasswordFrame');
     }
+    public function accordion()
+    {
+        return view('admin.uiComponents.accordion');
+    }
+    public function alerts()
+    {
+        return view('admin.uiComponents.alerts');
+    }
+    public function badge()
+    {
+        return view('admin.uiComponents.badge');
+    }
+    public function breadcrumb()
+    {
+        return view('admin.uiComponents.breadcrumb');
+    }
+    public function buttons()
+    {
+        return view('admin.uiComponents.buttons');
+    }
+    public function typography()
+    {
+        return view('admin.uiComponents.typography');
+    }
+    public function buttonGroup()
+    {
+        return view('admin.uiComponents.buttonGroup');
+    }
+    public function card()
+    {
+        return view('admin.uiComponents.card');
+    }
+    public function collapse()
+    {
+        return view('admin.uiComponents.collapse');
+    }
+    public function carousel()
+    {
+        return view('admin.uiComponents.carousel');
+    }
+    public function dropdowns()
+    {
+        return view('admin.uiComponents.dropdowns');
+    }
+    public function modal()
+    {
+        return view('admin.uiComponents.modal');
+    }
+    public function navbar()
+    {
+        return view('admin.uiComponents.navbar');
+    }
 }

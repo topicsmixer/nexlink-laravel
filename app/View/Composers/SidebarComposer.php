@@ -57,6 +57,21 @@ class SidebarComposer
                 'admin.authentication.new-password-cover',
                 'admin.authentication.new-password-frame'
             ]),
+            'components' => request()->routeIs([
+                'admin.ui-components.accordion',
+                'admin.ui-components.alerts',
+                'admin.ui-components.badge',
+                'admin.ui-components.breadcrumb',
+                'admin.ui-components.buttons',
+                'admin.ui-components.typography',
+                'admin.ui-components.button-group',
+                'admin.ui-components.card',
+                'admin.ui-components.collapse',
+                'admin.ui-components.carousel',
+                'admin.ui-components.dropdowns',
+                'admin.ui-components.modal',
+                'admin.ui-components.navbar',
+            ]),
         ];
 
         $view->with('sidebar', $sidebar);
