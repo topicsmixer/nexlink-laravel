@@ -243,4 +243,44 @@ class HomeController extends Controller
     {
         return view('admin.uiComponents.navbar');
     }
+    public function listGroup()
+    {
+        return view('admin.uiComponents.listGroup');
+    }
+    public function tabs()
+    {
+        return view('admin.uiComponents.tabs');
+    }
+    public function offcanvas()
+    {
+        return view('admin.uiComponents.offcanvas');
+    }
+    public function pagination()
+    {
+        return view('admin.uiComponents.pagination');
+    }
+    public function popovers()
+    {
+        return view('admin.uiComponents.popovers');
+    }
+    public function progress()
+    {
+        return view('admin.uiComponents.progress');
+    }
+    public function scrollspy()
+    {
+        return view('admin.uiComponents.scrollspy');
+    }
+    public function spinners()
+    {
+        return view('admin.uiComponents.spinners');
+    }
+    public function toasts()
+    {
+        return view('admin.uiComponents.toasts');
+    }
+    public function tooltips()
+    {
+        return view('admin.uiComponents.tooltips');
+    }
 }

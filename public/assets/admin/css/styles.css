@@ -14533,8 +14533,7 @@ strong {
 }
 .app-menubar-tabs .app-tab-content .app-navbar {
   width: 100%;
-  /* height: calc(100vh - 285px); */
-  height: 100vh;
+  height: calc(100vh - 285px);
 }
 .app-menubar-tabs .app-tab-content .tab-content {
   height: auto;

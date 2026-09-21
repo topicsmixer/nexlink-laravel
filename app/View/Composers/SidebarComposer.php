@@ -71,6 +71,16 @@ class SidebarComposer
                 'admin.ui-components.dropdowns',
                 'admin.ui-components.modal',
                 'admin.ui-components.navbar',
+                'admin.ui-components.list-group',
+                'admin.ui-components.tabs',
+                'admin.ui-components.offcanvas',
+                'admin.ui-components.pagination',
+                'admin.ui-components.popovers',
+                'admin.ui-components.progress',
+                'admin.ui-components.scrollspy',
+                'admin.ui-components.spinners',
+                'admin.ui-components.toasts',
+                'admin.ui-components.tooltips',
             ]),
         ];
 

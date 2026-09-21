@@ -645,61 +645,71 @@
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/list-group.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.list-group') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.list-group') }}">
                                     <i class="fi fi-rr-list"></i>
                                     <span class="menu-label">List Group</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/tabs.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.tabs') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.tabs') }}">
                                     <i class="fi fi-rr-tab-folder"></i>
                                     <span class="menu-label">Tabs</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/offcanvas.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.offcanvas') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.offcanvas') }}">
                                     <i class="fi fi-rr-flux-capacitor"></i>
                                     <span class="menu-label">Offcanvas</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/pagination.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.pagination') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.pagination') }}">
                                     <i class="fi fi-rr-flux-capacitor"></i>
                                     <span class="menu-label">Pagination</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/popovers.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.popovers') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.popovers') }}">
                                     <i class="fi fi-rr-flux-capacitor"></i>
                                     <span class="menu-label">Popovers</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/progress.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.progress') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.progress') }}">
                                     <i class="fi fi-sr-bars-progress"></i>
                                     <span class="menu-label">Progress</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/scrollspy.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.scrollspy') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.scrollspy') }}">
                                     <i class="fi fi-rr-flux-capacitor"></i>
                                     <span class="menu-label">Scrollspy</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/spinners.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.spinners') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.spinners') }}">
                                     <i class="fi fi-br-loading"></i>
                                     <span class="menu-label">Spinners</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/toasts.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.toasts') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.toasts') }}">
                                     <i class="fi fi-rr-flux-capacitor"></i>
                                     <span class="menu-label">Toasts</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="components/tooltips.html">
+                                <a class="menu-link {{ request()->routeIs('admin.ui-components.tooltips') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.ui-components.tooltips') }}">
                                     <i class="fi fi-rr-flux-capacitor"></i>
                                     <span class="menu-label">Tooltips</span>
                                 </a>

@@ -85,6 +85,16 @@ Route::group([
     Route::get('/components/dropdowns', [HomeController::class, 'dropdowns'])->name('ui-components.dropdowns');
     Route::get('/components/modal', [HomeController::class, 'modal'])->name('ui-components.modal');
     Route::get('/components/navbar', [HomeController::class, 'navbar'])->name('ui-components.navbar');
+    Route::get('/components/list-group', [HomeController::class, 'listGroup'])->name('ui-components.list-group');
+    Route::get('/components/tabs', [HomeController::class, 'tabs'])->name('ui-components.tabs');
+    Route::get('/components/offcanvas', [HomeController::class, 'offcanvas'])->name('ui-components.offcanvas');
+    Route::get('/components/pagination', [HomeController::class, 'pagination'])->name('ui-components.pagination');
+    Route::get('/components/popovers', [HomeController::class, 'popovers'])->name('ui-components.popovers');
+    Route::get('/components/progress', [HomeController::class, 'progress'])->name('ui-components.progress');
+    Route::get('/components/scrollspy', [HomeController::class, 'scrollspy'])->name('ui-components.scrollspy');
+    Route::get('/components/spinners', [HomeController::class, 'spinners'])->name('ui-components.spinners');
+    Route::get('/components/toasts', [HomeController::class, 'toasts'])->name('ui-components.toasts');
+    Route::get('/components/tooltips', [HomeController::class, 'tooltips'])->name('ui-components.tooltips');
 
 
     // Ai Chat route
