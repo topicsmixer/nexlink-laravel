@@ -283,4 +283,12 @@ class HomeController extends Controller
     {
         return view('admin.uiComponents.tooltips');
     }
+    public function avatar()
+    {
+        return view('admin.extendedUi.avatar');
+    }
+    public function cardAction()
+    {
+        return view('admin.extendedUi.cardAction');
+    }
 }

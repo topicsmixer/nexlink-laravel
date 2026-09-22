@@ -717,20 +717,22 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="tab-pane fade" id="extendedTab" role="tabpanel" tabindex="0">
+                <div class="tab-pane fade {{ $sidebar['extendedUi'] ? 'show active' : '' }}" id="extendedTab" role="tabpanel" tabindex="0">
                     <nav class="app-navbar" data-simplebar>
                         <ul class="side-menubar">
                             <li class="menu-heading">
                                 <span class="menu-label">Extended UI</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="extended-ui/avatar.html">
+                                <a class="menu-link {{ request()->routeIs('admin.extended-ui.avatar') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.extended-ui.avatar') }}">
                                     <i class="fi fi-rr-circle-user"></i>
                                     <span class="menu-label">Avatar</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="extended-ui/card-action.html">
+                                <a class="menu-link {{ request()->routeIs('admin.extended-ui.card-action') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.extended-ui.card-action') }}">
                                     <i class="fi fi-rr-credit-card"></i>
                                     <span class="menu-label">Card action</span>
                                 </a>

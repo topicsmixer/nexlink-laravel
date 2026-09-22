@@ -82,6 +82,10 @@ class SidebarComposer
                 'admin.ui-components.toasts',
                 'admin.ui-components.tooltips',
             ]),
+            'extendedUi' => request()->routeIs([
+                'admin.extended-ui.avatar',
+                'admin.extended-ui.card-action',
+            ])
         ];
 
         $view->with('sidebar', $sidebar);

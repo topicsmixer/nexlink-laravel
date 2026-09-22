@@ -95,6 +95,9 @@ Route::group([
     Route::get('/components/spinners', [HomeController::class, 'spinners'])->name('ui-components.spinners');
     Route::get('/components/toasts', [HomeController::class, 'toasts'])->name('ui-components.toasts');
     Route::get('/components/tooltips', [HomeController::class, 'tooltips'])->name('ui-components.tooltips');
+    // Extended-ui
+    Route::get('/extended-ui/avatar', [HomeController::class, 'avatar'])->name('extended-ui.avatar');
+    Route::get('/extended-ui/card-action', [HomeController::class, 'cardAction'])->name('extended-ui.card-action');
 
 
     // Ai Chat route
