@@ -85,6 +85,23 @@ class SidebarComposer
             'extendedUi' => request()->routeIs([
                 'admin.extended-ui.avatar',
                 'admin.extended-ui.card-action',
+                'admin.extended-ui.drag-and-drop',
+                'admin.extended-ui.simplebar',
+                'admin.extended-ui.swiper'
+            ]),
+            'forms' => request()->routeIs([
+                'admin.forms.form-elements',
+                'admin.forms.form-floating',
+                'admin.forms.form-input-group',
+                'admin.forms.form-layout',
+                'admin.forms.form-validation',
+                'admin.forms.flatpickr',
+                'admin.forms.tagify',
+                'admin.forms.tablesBasic',
+                'admin.forms.tablesDatatable',
+            ]),
+            'chart' => request()->routeIs([
+                'admin.chart.apexChart',
             ])
         ];
 

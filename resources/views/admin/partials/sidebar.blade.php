@@ -738,82 +738,66 @@
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="extended-ui/drag-and-drop.html">
+                                <a class="menu-link {{ request()->routeIs('admin.extended-ui.drag-and-drop') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.extended-ui.drag-and-drop') }}">
                                     <i class="fi fi-rr-arrows"></i>
                                     <span class="menu-label">Drag & drop</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="extended-ui/simplebar.html">
+                                <a class="menu-link {{ request()->routeIs('admin.extended-ui.simplebar') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.extended-ui.simplebar') }}">
                                     <i class="fi fi-rr-star"></i>
                                     <span class="menu-label">Simplebar</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="extended-ui/swiper.html">
+                                <a class="menu-link {{ request()->routeIs('admin.extended-ui.swiper') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.extended-ui.swiper') }}">
                                     <i class="fi fi-rr-sliders-h-square"></i>
                                     <span class="menu-label">Swiper</span>
-                                </a>
-                            </li>
-                            <li>
-                                <div class="menu-divider"></div>
-                            </li>
-                            <li class="menu-heading">
-                                <span class="menu-label">Icons</span>
-                            </li>
-                            <li class="menu-item">
-                                <a class="menu-link" href="icons/flaticon.html">
-                                    <i class="fi fi-rr-star"></i>
-                                    <span class="menu-label">Flaticon</span>
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                                <a class="menu-link" href="icons/lucide.html">
-                                    <i class="fi fi-rr-star"></i>
-                                    <span class="menu-label">Lucide</span>
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                                <a class="menu-link" href="icons/fontawesome.html">
-                                    <i class="fi fi-rr-star"></i>
-                                    <span class="menu-label">Font Awesome</span>
                                 </a>
                             </li>
                         </ul>
                     </nav>
                 </div>
-                <div class="tab-pane fade" id="formElementsTab" role="tabpanel" tabindex="0">
+                <div class="tab-pane fade {{ $sidebar['forms'] ? 'show active' : '' }}" id="formElementsTab" role="tabpanel" tabindex="0">
                     <nav class="app-navbar" data-simplebar>
                         <ul class="side-menubar">
                             <li class="menu-heading">
                                 <span class="menu-label">Forms</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="forms/form-elements.html">
+                                <a class="menu-link {{ request()->routeIs('admin.forms.form-elements') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.forms.form-elements') }}">
                                     <i class="fi fi-rr-form"></i>
                                     <span class="menu-label">Form Elements</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="forms/form-floating.html">
+                                <a class="menu-link {{ request()->routeIs('admin.forms.form-floating') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.forms.form-floating') }}">
                                     <i class="fi fi-rr-form"></i>
                                     <span class="menu-label">Form Floating</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="forms/form-input-group.html">
+                                <a class="menu-link {{ request()->routeIs('admin.forms.form-input-group') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.forms.form-input-group') }}">
                                     <i class="fi fi-rr-form"></i>
                                     <span class="menu-label">Form Input Group</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="forms/form-layout.html">
+                                <a class="menu-link {{ request()->routeIs('admin.forms.form-layout') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.forms.form-layout') }}">
                                     <i class="fi fi-rr-form"></i>
                                     <span class="menu-label">Form Layout</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="forms/form-validation.html">
+                                <a class="menu-link {{ request()->routeIs('admin.forms.form-validation') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.forms.form-validation') }}">
                                     <i class="fi fi-rr-form"></i>
                                     <span class="menu-label">Form Validation</span>
                                 </a>
@@ -823,13 +807,15 @@
                                 <span class="menu-label">Forms Plugins</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="forms/flatpickr.html">
+                                <a class="menu-link {{ request()->routeIs('admin.forms.flatpickr') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.forms.flatpickr') }}">
                                     <i class="fi fi-rr-calendar-lines"></i>
                                     <span class="menu-label">Flatpickr</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="forms/tagify.html">
+                                <a class="menu-link {{ request()->routeIs('admin.forms.tagify') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.forms.tagify') }}">
                                     <i class="fi fi-rr-tags"></i>
                                     <span class="menu-label">Tagify</span>
                                 </a>
@@ -841,13 +827,15 @@
                                 <span class="menu-label">Table</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="table/tables-basic.html">
+                                <a class="menu-link {{ request()->routeIs('admin.forms.tablesBasic') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.forms.tablesBasic') }}">
                                     <i class="fi fi-rr-table-list"></i>
                                     <span class="menu-label">Table</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="table/tables-datatable.html">
+                                <a class="menu-link {{ request()->routeIs('admin.forms.tablesDatatable') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.forms.tablesDatatable') }}">
                                     <i class="fi fi-rr-table"></i>
                                     <span class="menu-label">Datatable</span>
                                 </a>
@@ -855,14 +843,15 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="tab-pane fade" id="chartsTab" role="tabpanel" tabindex="0">
+                <div class="tab-pane fade {{ $sidebar['chart'] ? 'show active' : '' }}" id="chartsTab" role="tabpanel" tabindex="0">
                     <nav class="app-navbar" data-simplebar>
                         <ul class="side-menubar">
                             <li class="menu-heading">
                                 <span class="menu-label">Charts</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="chart/apexchart.html">
+                                <a class="menu-link {{ request()->routeIs('admin.chart.apexChart') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.chart.apexChart') }}">
                                     <i class="fi fi-br-chart-histogram"></i>
                                     <span class="menu-label">Apex Chart</span>
                                 </a>

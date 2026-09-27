@@ -51,7 +51,7 @@ $(document).ready(() => {
     // -----------------------------
     if ($('#dt_AjaxData').length) {
         const dtAjaxDataTable = $('#dt_AjaxData').DataTable({
-            ajax: 'https://nexlink.layoutdrop.com/php/demo/assets/ajax/arrays.txt',
+            ajax: '/assets/admin/ajax/arrays.json',
             language: dtLanguage,
             initComplete: () => {
                 safeAddClass('#dt_AjaxData_wrapper > .row.mt-2.justify-content-between', 'mx-2 py-2');
@@ -82,7 +82,7 @@ $(document).ready(() => {
         };
 
         const dtExtraDetailedTable = $('#dt_ExtraDetailed').DataTable({
-            ajax: 'https://nexlink.layoutdrop.com/php/demo/assets/ajax/objects.txt',
+            ajax: '/assets/admin/ajax/objects.json',
             columns: [
                 { className: 'dt-control', orderable: false, data: null, defaultContent: '' },
                 { data: 'name' },

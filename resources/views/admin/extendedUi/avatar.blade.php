@@ -385,7 +385,6 @@
     <!--  Page Scripts -->
     <script src="{{ asset('assets/admin/libs/global/global.min.js') }}"></script>
     <script src="{{ asset('assets/admin/libs/flatpickr/flatpickr.min.js') }}"></script>
-    <script src="{{ asset('assets/admin/js/plugins/toast.js') }}"></script>
     <script src="{{ asset('assets/admin/js/appSettings.js') }}"></script>
     <script src="{{ asset('assets/admin/js/main.js') }}"></script>
     <!--  Page Scripts -->

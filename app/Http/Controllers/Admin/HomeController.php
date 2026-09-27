@@ -291,4 +291,56 @@ class HomeController extends Controller
     {
         return view('admin.extendedUi.cardAction');
     }
+    public function dragAndDrop()
+    {
+        return view('admin.extendedUi.dragAndDrop');
+    }
+    public function simplebar()
+    {
+        return view('admin.extendedUi.simplebar');
+    }
+    public function swiper()
+    {
+        return view('admin.extendedUi.swiper');
+    }
+    public function formElements()
+    {
+        return view('admin.forms.formElements');
+    }
+    public function formFloating()
+    {
+        return view('admin.forms.formFloating');
+    }
+    public function formInputGroup()
+    {
+        return view('admin.forms.formInputGroup');
+    }
+    public function formLayout()
+    {
+        return view('admin.forms.formLayout');
+    }
+    public function formValidation()
+    {
+        return view('admin.forms.formValidation');
+    }
+    public function flatPickr()
+    {
+        return view('admin.forms.flatPickr');
+    }
+    public function tagify()
+    {
+        return view('admin.forms.tagify');
+    }
+    public function tablesBasic()
+    {
+        return view('admin.forms.tablesBasic');
+    }
+    public function tablesDatatable()
+    {
+        return view('admin.forms.tablesDatatable');
+    }
+    public function apexChart()
+    {
+        return view('admin.chart.apexChart');
+    }
 }

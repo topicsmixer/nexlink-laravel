@@ -98,6 +98,21 @@ Route::group([
     // Extended-ui
     Route::get('/extended-ui/avatar', [HomeController::class, 'avatar'])->name('extended-ui.avatar');
     Route::get('/extended-ui/card-action', [HomeController::class, 'cardAction'])->name('extended-ui.card-action');
+    Route::get('/extended-ui/drag-and-drop', [HomeController::class, 'dragAndDrop'])->name('extended-ui.drag-and-drop');
+    Route::get('/extended-ui/simplebar', [HomeController::class, 'simplebar'])->name('extended-ui.simplebar');
+    Route::get('/extended-ui/swiper', [HomeController::class, 'swiper'])->name('extended-ui.swiper');
+    // forms 
+    Route::get('/forms/form-elements', [HomeController::class, 'formElements'])->name('forms.form-elements');
+    Route::get('/forms/form-floating', [HomeController::class, 'formFloating'])->name('forms.form-floating');
+    Route::get('/forms/form-input-group', [HomeController::class, 'formInputGroup'])->name('forms.form-input-group');
+    Route::get('/forms/form-layout', [HomeController::class, 'formLayout'])->name('forms.form-layout');
+    Route::get('/forms/form-validation', [HomeController::class, 'formValidation'])->name('forms.form-validation');
+    Route::get('/forms/flatpickr', [HomeController::class, 'flatPickr'])->name('forms.flatpickr');
+    Route::get('/forms/tagify', [HomeController::class, 'tagify'])->name('forms.tagify');
+    Route::get('/forms/table/tables-basic', [HomeController::class, 'tablesBasic'])->name('forms.tablesBasic');
+    Route::get('/forms/table/tables-datatable', [HomeController::class, 'tablesDatatable'])->name('forms.tablesDatatable');
+    // chart
+    Route::get('/chart/apexchart', [HomeController::class, 'apexChart'])->name('chart.apexChart');
 
 
     // Ai Chat route
