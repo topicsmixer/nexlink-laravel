@@ -291,7 +291,7 @@
                     <span class="text-sm text-dark d-block fw-semibold">USA</span>
                   </div>
                 </div>
-                <a href="pages/blog.html" class="btn btn-primary waves-effect waves-light w-100">
+                <a href="{{ route('admin.pages.blog') }}" class="btn btn-primary waves-effect waves-light w-100">
                   See Job Post
                 </a>
               </div>
@@ -333,7 +333,7 @@
                     <span class="text-sm text-dark d-block fw-semibold">USA</span>
                   </div>
                 </div>
-                <a href="pages/blog.html" class="btn btn-primary waves-effect waves-light w-100">
+                <a href="{{ route('admin.pages.blog') }}" class="btn btn-primary waves-effect waves-light w-100">
                   See Job Post
                 </a>
               </div>
@@ -375,7 +375,7 @@
                     <span class="text-sm text-dark d-block fw-semibold">USA</span>
                   </div>
                 </div>
-                <a href="pages/blog.html" class="btn btn-primary waves-effect waves-light w-100">
+                <a href="{{ route('admin.pages.blog') }}" class="btn btn-primary waves-effect waves-light w-100">
                   See Job Post
                 </a>
               </div>
@@ -417,7 +417,7 @@
                     <span class="text-sm text-dark d-block fw-semibold">USA</span>
                   </div>
                 </div>
-                <a href="pages/blog.html" class="btn btn-primary waves-effect waves-light w-100">
+                <a href="{{ route('admin.pages.blog') }}" class="btn btn-primary waves-effect waves-light w-100">
                   See Job Post
                 </a>
               </div>
@@ -434,14 +434,14 @@
               <div class="card-header border-0 p-0 m-2 position-relative overflow-hidden">
                 <img src="{{ asset('assets/admin/images/blog/blog1.webp') }}" alt="" class="img-fluid rounded">
                 <div class="position-absolute action-visible top-0 start-0 h-100 w-100 bg-dark bg-opacity-50 rounded d-flex align-items-center justify-content-center">
-                  <a href="pages/blog-details.html" class="btn btn-icon btn-lg btn-secondary rounded-circle waves-effect waves-light">
+                  <a href="{{ route('admin.pages.blog-details') }}" class="btn btn-icon btn-lg btn-secondary rounded-circle waves-effect waves-light">
                     <i class="fi fi-rr-arrow-right"></i>
                   </a>
                 </div>
               </div>
               <div class="card-body px-3 py-2">
                 <h4>
-                  <a href="pages/blog-details.html" class="text-dark">Effective Hiring Process for Finding the Right Talent</a>
+                  <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">Effective Hiring Process for Finding the Right Talent</a>
                 </h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting standard dummy text ever since.</p>
               </div>
@@ -464,14 +464,14 @@
               <div class="card-header border-0 p-0 m-2 position-relative overflow-hidden">
                 <img src="{{ asset('assets/admin/images/blog/blog2.webp') }}" alt="" class="img-fluid rounded">
                 <div class="position-absolute action-visible top-0 start-0 h-100 w-100 bg-dark bg-opacity-50 rounded d-flex align-items-center justify-content-center">
-                  <a href="pages/blog-details.html" class="btn btn-icon btn-lg btn-secondary rounded-circle waves-effect waves-light">
+                  <a href="{{ route('admin.pages.blog-details') }}" class="btn btn-icon btn-lg btn-secondary rounded-circle waves-effect waves-light">
                     <i class="fi fi-rr-arrow-right"></i>
                   </a>
                 </div>
               </div>
               <div class="card-body px-3 py-2">
                 <h4>
-                  <a href="pages/blog-details.html" class="text-dark">Employee Onboarding and the Power of First Impressions</a>
+                  <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">Employee Onboarding and the Power of First Impressions</a>
                 </h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting standard dummy text ever since.</p>
               </div>
@@ -494,14 +494,14 @@
               <div class="card-header border-0 p-0 m-2 position-relative overflow-hidden">
                 <img src="{{ asset('assets/admin/images/blog/blog3.webp') }}" alt="" class="img-fluid rounded">
                 <div class="position-absolute action-visible top-0 start-0 h-100 w-100 bg-dark bg-opacity-50 rounded d-flex align-items-center justify-content-center">
-                  <a href="pages/blog-details.html" class="btn btn-icon btn-lg btn-secondary rounded-circle waves-effect waves-light">
+                  <a href="{{ route('admin.pages.blog-details') }}" class="btn btn-icon btn-lg btn-secondary rounded-circle waves-effect waves-light">
                     <i class="fi fi-rr-arrow-right"></i>
                   </a>
                 </div>
               </div>
               <div class="card-body px-3 py-2">
                 <h4>
-                  <a href="pages/blog-details.html" class="text-dark">Training and Development for a Skilled Workforce</a>
+                  <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">Training and Development for a Skilled Workforce</a>
                 </h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting standard dummy text ever since.</p>
               </div>

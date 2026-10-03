@@ -64,7 +64,7 @@
               <div class="mb-3">
                 <button type="submit" value="Submit" class="btn btn-primary waves-effect waves-light w-100">Sign up</button>
               </div>
-              <p class="mb-5 text-center">Have any account? <a href="http://../authentication/login-frame.html">Sign In here</a>
+              <p class="mb-5 text-center">Have any account? <a href="{{ route('admin.authentication.login-frame') }}">Sign In here</a>
               </p>
               <div class="border-bottom position-relative my-4 text-center">
                 <span class="px-3 position-absolute translate-middle top-50 start-50 bg-body">Or Continue With</span>

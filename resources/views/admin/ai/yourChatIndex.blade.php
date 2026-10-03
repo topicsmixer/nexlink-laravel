@@ -170,27 +170,27 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="search-item" href="chat.html">
+                                    <a class="search-item" href="{{ route('admin.chat') }}">
                                         <i class="fi fi-rr-comment"></i> Chat
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="search-item" href="calendar.html">
+                                    <a class="search-item" href="{{ route('admin.calendar') }}">
                                         <i class="fi fi-rr-calendar"></i> Calendar
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="search-item" href="chart/apexchart.html">
+                                    <a class="search-item" href="{{ route('admin.chart.apexChart') }}">
                                         <i class="fi fi-rr-chart-pie-alt"></i> Apexchart
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="search-item" href="pages/pricing.html">
+                                    <a class="search-item" href="{{ route('admin.pages.pricing') }}">
                                         <i class="fi fi-rr-file"></i> Pricing
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="search-item" href="email/inbox.html">
+                                    <a class="search-item" href="{{ route('admin.email.inbox') }}">
                                         <i class="fi fi-rr-envelope"></i> Email
                                     </a>
                                 </li>

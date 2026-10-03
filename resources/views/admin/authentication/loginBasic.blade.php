@@ -52,10 +52,10 @@
               <div class="mb-4">
                 <div class="d-flex justify-content-between">
                   <div class="form-check mb-0">
-                    <input class="form-check-input" type="checkbox" id="rememberMe">
+                    <input class="form-check-input border border-primary" type="checkbox" id="rememberMe">
                     <label class="form-check-label" for="rememberMe"> Remember Me </label>
                   </div>
-                  <a href="http://../authentication/forgot-password-basic.html">Forgot Password?</a>
+                  <a href="{{ route('admin.authentication.forgot-password-basic') }}">Forgot Password?</a>
                 </div>
               </div>
               <div class="mb-3">

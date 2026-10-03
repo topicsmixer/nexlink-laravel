@@ -60,16 +60,16 @@
               <div class="mb-4">
                 <div class="d-flex justify-content-between">
                   <div class="form-check mb-0">
-                    <input class="form-check-input" type="checkbox" id="rememberMe">
+                    <input class="form-check-input border border-primary" type="checkbox" id="rememberMe">
                     <label class="form-check-label" for="rememberMe"> Remember Me </label>
                   </div>
-                  <a href="http://../authentication/forgot-password-cover.html">Forgot Password?</a>
+                  <a href="{{ route('admin.authentication.forgot-password-cover') }}">Forgot Password?</a>
                 </div>
               </div>
               <div class="mb-3">
                 <button type="submit" value="Submit" class="btn btn-primary waves-effect waves-light w-100">Login</button>
               </div>
-              <p class="mb-5 text-center">Don’t have an account? <a href="http://../authentication/register-cover.html">Sign Up here</a>
+              <p class="mb-5 text-center">Don’t have an account? <a href="{{ route('admin.authentication.register-cover') }}">Sign Up here</a>
               </p>
               <div class="border-bottom position-relative my-4 text-center">
                 <span class="px-3 position-absolute translate-middle top-50 start-50 bg-body">Or Continue With</span>

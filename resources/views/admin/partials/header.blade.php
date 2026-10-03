@@ -64,7 +64,7 @@
             </div>
             <div class="vr my-3"></div>
             <div class="d-flex align-items-center gap-sm-2 gap-0 px-lg-4 px-sm-2 px-1">
-                <a href="email/inbox.html"
+                <a href="{{ route('admin.email.inbox') }}"
                     class="btn btn-icon btn-action-gray rounded-circle waves-effect waves-light position-relative">
                     <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -253,17 +253,17 @@
                         </a>
                     </li>
                     <li>
-                        <a class="dropdown-item d-flex align-items-center gap-2" href="task-management.html">
+                        <a class="dropdown-item d-flex align-items-center gap-2" href="{{ route('admin.task-management-dashboard') }}">
                             <i class="fi fi-rr-note scale-1x"></i> My Task
                         </a>
                     </li>
                     <li>
-                        <a class="dropdown-item d-flex align-items-center gap-2" href="settings.html">
+                        <a class="dropdown-item d-flex align-items-center gap-2" href="{{ route('admin.settings') }}">
                             <i class="fi fi-rr-settings scale-1x"></i> Account Settings
                         </a>
                     </li>
                     <li>
-                        <a class="dropdown-item d-flex align-items-center gap-2" href="pages/pricing.html">
+                        <a class="dropdown-item d-flex align-items-center gap-2" href="{{ route('admin.pages.pricing') }}">
                             <i class="fi fi-rr-usd-circle scale-1x"></i> Upgrade Plan
                         </a>
                     </li>
@@ -272,7 +272,7 @@
                     </li>
                     <li>
                         <a class="dropdown-item d-flex align-items-center gap-2 text-danger"
-                            href="authentication/login-basic.html">
+                            href="{{ route('admin.authentication.login-basic') }}">
                             <i class="fi fi-sr-exit scale-1x"></i> Log Out
                         </a>
                     </li>

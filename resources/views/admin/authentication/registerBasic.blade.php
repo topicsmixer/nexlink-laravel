@@ -55,7 +55,7 @@
               </div>
               <div class="mb-4">
                 <div class="form-check mb-0">
-                  <input class="form-check-input" type="checkbox" id="termsConditions" name="terms">
+                  <input class="form-check-input border border-primary" type="checkbox" id="termsConditions" name="terms">
                   <label class="form-check-label" for="termsConditions">
                     I agree to <a href="javascript:void(0);">privacy policy & terms</a>
                   </label>
@@ -64,7 +64,7 @@
               <div class="mb-3">
                 <button type="submit" value="Submit" class="btn btn-primary waves-effect waves-light w-100">Sign up</button>
               </div>
-              <p class="mb-5 text-center">Have any account? <a href="http://../authentication/login.html">Sign In here</a>
+              <p class="mb-5 text-center">Have any account? <a href="{{ route('admin.authentication.login-basic') }}">Sign In here</a>
               </p>
               <div class="border-bottom position-relative my-4 text-center">
                 <span class="px-3 position-absolute translate-middle top-50 start-50 bg-body">Or Continue With</span>

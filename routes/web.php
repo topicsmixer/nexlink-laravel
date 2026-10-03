@@ -30,6 +30,8 @@ Route::group([
     Route::get('/activities-dashboard', [HomeController::class, 'activitiesDashIndex'])->name('activities-dashboard');
     Route::get('/deals-dashboard', [HomeController::class, 'dealsDashIndex'])->name('deals-dashboard');
 
+    Route::get('/settings', [HomeController::class, 'settings'])->name('settings');
+
     // Profile routes
     Route::get('/profile', [HomeController::class, 'profileIndex'])->name('profile');
 
@@ -101,6 +103,10 @@ Route::group([
     Route::get('/extended-ui/drag-and-drop', [HomeController::class, 'dragAndDrop'])->name('extended-ui.drag-and-drop');
     Route::get('/extended-ui/simplebar', [HomeController::class, 'simplebar'])->name('extended-ui.simplebar');
     Route::get('/extended-ui/swiper', [HomeController::class, 'swiper'])->name('extended-ui.swiper');
+    // icons 
+    Route::get('/icons/flaticon', [HomeController::class, 'flaticon'])->name('icons.flaticon');
+    Route::get('/icons/lucide', [HomeController::class, 'lucide'])->name('icons.lucide');
+    Route::get('/icons/fontawesome', [HomeController::class, 'fontawesome'])->name('icons.fontawesome');
     // forms 
     Route::get('/forms/form-elements', [HomeController::class, 'formElements'])->name('forms.form-elements');
     Route::get('/forms/form-floating', [HomeController::class, 'formFloating'])->name('forms.form-floating');
@@ -113,6 +119,10 @@ Route::group([
     Route::get('/forms/table/tables-datatable', [HomeController::class, 'tablesDatatable'])->name('forms.tablesDatatable');
     // chart
     Route::get('/chart/apexchart', [HomeController::class, 'apexChart'])->name('chart.apexChart');
+    Route::get('/chart/chartjs', [HomeController::class, 'chartJs'])->name('chart.chartjs');
+    // map
+    Route::get('/maps/jsvectormap', [HomeController::class, 'jsVectorMap'])->name('maps.jsvectormap');
+    Route::get('/maps/leaflet', [HomeController::class, 'leaflet'])->name('maps.leaflet');
 
 
     // Ai Chat route

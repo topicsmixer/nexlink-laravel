@@ -182,7 +182,7 @@
                 </a>
             </li>
             <li class="nav-item mt-5" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Login">
-                <a class="menu-link" href="authentication/login-frame.html">
+                <a class="menu-link" href="{{ route('admin.authentication.login-frame') }}">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path opacity="0.5"
@@ -758,6 +758,33 @@
                                     <span class="menu-label">Swiper</span>
                                 </a>
                             </li>
+                            <li>
+                                <div class="menu-divider"></div>
+                            </li>
+                            <li class="menu-heading">
+                                <span class="menu-label">Icons</span>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link {{ request()->routeIs('admin.icons.flaticon') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.icons.flaticon') }}">
+                                    <i class="fi fi-rr-star"></i>
+                                    <span class="menu-label">Flaticon</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link {{ request()->routeIs('admin.icons.lucide') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.icons.lucide') }}">
+                                    <i class="fi fi-rr-star"></i>
+                                    <span class="menu-label">Lucide</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link {{ request()->routeIs('admin.icons.fontawesome') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.icons.fontawesome') }}">
+                                    <i class="fi fi-rr-star"></i>
+                                    <span class="menu-label">Font Awesome</span>
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -857,7 +884,8 @@
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="chart/chartjs.html">
+                                <a class="menu-link {{ request()->routeIs('admin.chart.chartjs') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.chart.chartjs') }}">
                                     <i class="fi fi-rr-chart-pie-alt"></i>
                                     <span class="menu-label">Chart JS</span>
                                 </a>
@@ -869,13 +897,15 @@
                                 <span class="menu-label">Maps</span>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="maps/jsvectormap.html">
+                                <a class="menu-link {{ request()->routeIs('admin.maps.jsvectormap') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.maps.jsvectormap') }}">
                                     <i class="fi fi-rr-marker"></i>
                                     <span class="menu-label">JS Vector Map</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="maps/leaflet.html">
+                                <a class="menu-link {{ request()->routeIs('admin.maps.leaflet') ? 'open active' : '' }}" 
+                                    href="{{ route('admin.maps.leaflet') }}">
                                     <i class="fi fi-rr-map-marker"></i>
                                     <span class="menu-label">Leaflet</span>
                                 </a>

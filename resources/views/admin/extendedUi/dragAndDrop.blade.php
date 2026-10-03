@@ -371,7 +371,7 @@
                         <span class="text-sm text-dark d-block fw-semibold">USA</span>
                       </div>
                     </div>
-                    <a href="pages/blog.html" class="btn btn-primary waves-effect waves-light w-100">
+                    <a href="{{ route('admin.pages.blog') }}" class="btn btn-primary waves-effect waves-light w-100">
                       See Job Post
                     </a>
                   </div>
@@ -414,7 +414,7 @@
                         <span class="text-sm text-dark d-block fw-semibold">USA</span>
                       </div>
                     </div>
-                    <a href="pages/blog.html" class="btn btn-primary waves-effect waves-light w-100">
+                    <a href="{{ route('admin.pages.blog') }}" class="btn btn-primary waves-effect waves-light w-100">
                       See Job Post
                     </a>
                   </div>
@@ -457,7 +457,7 @@
                         <span class="text-sm text-dark d-block fw-semibold">USA</span>
                       </div>
                     </div>
-                    <a href="pages/blog.html" class="btn btn-primary waves-effect waves-light w-100">
+                    <a href="{{ route('admin.pages.blog') }}" class="btn btn-primary waves-effect waves-light w-100">
                       See Job Post
                     </a>
                   </div>
@@ -500,7 +500,7 @@
                         <span class="text-sm text-dark d-block fw-semibold">USA</span>
                       </div>
                     </div>
-                    <a href="pages/blog.html" class="btn btn-primary waves-effect waves-light w-100">
+                    <a href="{{ route('admin.pages.blog') }}" class="btn btn-primary waves-effect waves-light w-100">
                       See Job Post
                     </a>
                   </div>

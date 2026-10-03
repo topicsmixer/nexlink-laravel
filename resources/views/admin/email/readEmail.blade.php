@@ -81,7 +81,7 @@
                       <i class="fi fi-rs-list"></i>
                     </button>
                     <div class="me-2">
-                      <a href="http://../email/inbox.html" class="btn btn-white btn-shadow btn-icon waves-effect me-2">
+                      <a href="{{ route('admin.email.inbox') }}" class="btn btn-white btn-shadow btn-icon waves-effect me-2">
                         <i class="fi fi-rr-arrow-left"></i>
                       </a>
                       <button type="button" class="btn btn-action-gray btn-icon waves-effect waves-light">

@@ -21,6 +21,8 @@ class SidebarComposer
                 'admin.user-management-dashboard',
                 'admin.activities-dashboard',
                 'admin.deals-dashboard',
+                'admin.settings',
+                'admin.profile',
             ]),
 
             'apps' => request()->routeIs([
@@ -87,7 +89,10 @@ class SidebarComposer
                 'admin.extended-ui.card-action',
                 'admin.extended-ui.drag-and-drop',
                 'admin.extended-ui.simplebar',
-                'admin.extended-ui.swiper'
+                'admin.extended-ui.swiper',
+                'admin.icons.flaticon',
+                'admin.icons.lucide',
+                'admin.icons.fontawesome',
             ]),
             'forms' => request()->routeIs([
                 'admin.forms.form-elements',
@@ -102,6 +107,9 @@ class SidebarComposer
             ]),
             'chart' => request()->routeIs([
                 'admin.chart.apexChart',
+                'admin.chart.chartjs',
+                'admin.maps.jsvectormap',
+                'admin.maps.leaflet',
             ])
         ];
 

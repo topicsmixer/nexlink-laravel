@@ -42,7 +42,7 @@
               <h5 class="mb-1">Welcome to NexLink</h5>
               <p>Enter your email to reset your password.</p>
             </div>
-            <form action="http://../authentication/new-password-cover.html">
+            <form action="{{ route('admin.authentication.new-password-cover') }}">
               <div class="mb-4">
                 <label class="form-label" for="resetEmail">Email address</label>
                 <input type="email" class="form-control" id="resetEmail" placeholder="info@example.com">

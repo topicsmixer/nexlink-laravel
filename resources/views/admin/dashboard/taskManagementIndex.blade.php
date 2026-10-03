@@ -47,7 +47,7 @@
                         <a class="nav-link rounded-5" href="javascript:void(0);">Timeline</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link rounded-5" href="calendar.html">Calendar</a>
+                        <a class="nav-link rounded-5" href="{{ route('admin.calendar') }}">Calendar</a>
                     </li>
                 </ul>
             </div>

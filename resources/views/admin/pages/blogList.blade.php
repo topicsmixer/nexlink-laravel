@@ -54,7 +54,7 @@
                                     <div class="col-md-8 d-flex flex-column">
                                         <div class="card-body px-0 px-md-4">
                                             <h5>
-                                                <a href="http://../pages/blog-details.html" class="text-dark">CRM Analytics
+                                                <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">CRM Analytics
                                                     Made Simple: Visualize Growth with Real-Time Dashboards</a>
                                             </h5>
                                             <ul class="d-flex list-inline mb-2 gap-3 flex-wrap">
@@ -73,7 +73,7 @@
                                             </ul>
                                             <p>Learn how to monitor performance and visualize business growth through
                                                 real-time CRM dashboards and analytics insights.</p>
-                                            <a href="http://../pages/blog-details.html"
+                                            <a href="{{ route('admin.pages.blog-details') }}"
                                                 class="btn btn-sm btn-outline-primary stretched-link">Read More</a>
                                         </div>
                                     </div>
@@ -91,7 +91,7 @@
                                     <div class="col-md-8 d-flex flex-column">
                                         <div class="card-body px-0 px-md-4">
                                             <h5>
-                                                <a href="http://../pages/blog-details.html" class="text-dark">Automate Your
+                                                <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">Automate Your
                                                     Workflow: Boost Sales Efficiency with Smart CRM Tools</a>
                                             </h5>
                                             <ul class="d-flex list-inline mb-2 gap-3 flex-wrap">
@@ -110,7 +110,7 @@
                                             </ul>
                                             <p>Discover how automation in CRM helps sales teams save time, close more deals,
                                                 and improve overall productivity.</p>
-                                            <a href="http://../pages/blog-details.html"
+                                            <a href="{{ route('admin.pages.blog-details') }}"
                                                 class="btn btn-sm btn-outline-primary stretched-link">Read More</a>
                                         </div>
                                     </div>
@@ -128,7 +128,7 @@
                                     <div class="col-md-8 d-flex flex-column">
                                         <div class="card-body px-0 px-md-4">
                                             <h5>
-                                                <a href="http://../pages/blog-details.html" class="text-dark">Customer
+                                                <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">Customer
                                                     Insights: How Data Shapes Stronger Relationships</a>
                                             </h5>
                                             <ul class="d-flex list-inline mb-2 gap-3 flex-wrap">
@@ -147,7 +147,7 @@
                                             </ul>
                                             <p>Use CRM analytics to understand customer behavior, personalize engagement,
                                                 and enhance satisfaction.</p>
-                                            <a href="http://../pages/blog-details.html"
+                                            <a href="{{ route('admin.pages.blog-details') }}"
                                                 class="btn btn-sm btn-outline-primary stretched-link">Read More</a>
                                         </div>
                                     </div>
@@ -165,7 +165,7 @@
                                     <div class="col-md-8 d-flex flex-column">
                                         <div class="card-body px-0 px-md-4">
                                             <h5>
-                                                <a href="http://../pages/blog-details.html" class="text-dark">The Power of
+                                                <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">The Power of
                                                     AI in CRM: Smarter Data, Faster Results</a>
                                             </h5>
                                             <ul class="d-flex list-inline mb-2 gap-3 flex-wrap">
@@ -184,7 +184,7 @@
                                             </ul>
                                             <p>Artificial Intelligence is redefining CRM systems — explore how predictive
                                                 analytics is transforming sales and marketing.</p>
-                                            <a href="http://../pages/blog-details.html"
+                                            <a href="{{ route('admin.pages.blog-details') }}"
                                                 class="btn btn-sm btn-outline-primary stretched-link">Read More</a>
                                         </div>
                                     </div>
@@ -202,7 +202,7 @@
                                     <div class="col-md-8 d-flex flex-column">
                                         <div class="card-body px-0 px-md-4">
                                             <h5>
-                                                <a href="http://../pages/blog-details.html" class="text-dark">Integrating
+                                                <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">Integrating
                                                     CRM with Marketing: The Ultimate Growth Strategy</a>
                                             </h5>
                                             <ul class="d-flex list-inline mb-2 gap-3 flex-wrap">
@@ -221,7 +221,7 @@
                                             </ul>
                                             <p>CRM and marketing alignment is the secret to conversion success — learn
                                                 strategies for data-driven campaigns.</p>
-                                            <a href="http://../pages/blog-details.html"
+                                            <a href="{{ route('admin.pages.blog-details') }}"
                                                 class="btn btn-sm btn-outline-primary stretched-link">Read More</a>
                                         </div>
                                     </div>
@@ -239,7 +239,7 @@
                                     <div class="col-md-8 d-flex flex-column">
                                         <div class="card-body px-0 px-md-4">
                                             <h5>
-                                                <a href="http://../pages/blog-details.html" class="text-dark">Data
+                                                <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">Data
                                                     Security in CRM: Protecting Your Business and Customers</a>
                                             </h5>
                                             <ul class="d-flex list-inline mb-2 gap-3 flex-wrap">
@@ -258,7 +258,7 @@
                                             </ul>
                                             <p>Understand the best practices and compliance strategies to keep your CRM data
                                                 safe and secure in 2025.</p>
-                                            <a href="http://../pages/blog-details.html"
+                                            <a href="{{ route('admin.pages.blog-details') }}"
                                                 class="btn btn-sm btn-outline-primary stretched-link">Read More</a>
                                         </div>
                                     </div>
@@ -327,7 +327,7 @@
                                                 </div>
                                                 <div class="flex-fill">
                                                     <h6 class="mb-1">
-                                                        <a href="http://../pages/blog-details.html" class="text-dark">
+                                                        <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">
                                                             5 Ways to Improve Your Sales Funnel in 2025
                                                         </a>
                                                     </h6>
@@ -343,7 +343,7 @@
                                                 </div>
                                                 <div class="flex-fill">
                                                     <h6 class="mb-1">
-                                                        <a href="http://../pages/blog-details.html" class="text-dark">
+                                                        <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">
                                                             How to Use CRM Data for Better Customer Retention
                                                         </a>
                                                     </h6>
@@ -359,7 +359,7 @@
                                                 </div>
                                                 <div class="flex-fill">
                                                     <h6 class="mb-1">
-                                                        <a href="http://../pages/blog-details.html" class="text-dark">
+                                                        <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">
                                                             Top CRM Trends That Will Shape 2026
                                                         </a>
                                                     </h6>

@@ -45,7 +45,7 @@
               <div class="sidebar-mobile-overlay"></div>
               <div class="mail-sidebar bg-light">
                 <div class="px-3 pt-3 mb-2">
-                  <a href="http://../email/compose.html" class="btn btn-primary waves-effect waves-light w-100">
+                  <a href="{{ route('admin.email.compose') }}" class="btn btn-primary waves-effect waves-light w-100">
                     Compose
                   </a>
                 </div>
@@ -119,7 +119,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">PixelMarket</span>
                             <span class="mail-item-subject">🎨 Fresh Color Kits Just Dropped!-</span>
                             <span class="mail-item-text text-body"> Add vibrance to your summer projects with pastel gradients and neon palettes.</span>
@@ -146,7 +146,7 @@
                           <a class="mail-item-bookmark active" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">DesignWave</span>
                             <span class="mail-item-subject">💰 You Made a Sale!</span>
                             <span class="mail-item-text text-body"> Congrats, layoutWave! Your product “MetroGrid Figma Layout” has sold for $</span>
@@ -173,7 +173,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">SiteTracker</span>
                             <span class="mail-item-subject">📊 1,000 Visitors Reached</span>
                             <span class="mail-item-text text-body"> Great job! Your site is gaining traction — keep the momentum going!</span>
@@ -200,7 +200,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">ThemeHive</span>
                             <span class="mail-item-subject">Review Digest – July 20th</span>
                             <span class="mail-item-text text-body"> Hello layoutWave, 2 themes approved:</span>
@@ -227,7 +227,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">PixelMarket</span>
                             <span class="mail-item-subject">Must-Have Fonts for Creators</span>
                             <span class="mail-item-text text-body"> Explore our top picks for minimal, bold, and handwritten font styles</span>
@@ -254,7 +254,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">DesignWave QA</span>
                             <span class="mail-item-subject">⚠️ Feedback on Recent Upload</span>
                             <span class="mail-item-text text-body"> Please fix responsiveness and padding issues.</span>
@@ -281,7 +281,7 @@
                           <a class="mail-item-bookmark active" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">ThemeHive</span>
                             <span class="mail-item-subject">🛑 Hard Rejection – July 18</span>
                             <span class="mail-item-text text-body"> our “NewsNow” template did not meet our layout standards. Check feedback.</span>
@@ -308,7 +308,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">PixelMarket</span>
                             <span class="mail-item-subject">🌟 Trending Items This Week</span>
                             <span class="mail-item-text text-body"> See what's rising in popularity</span>
@@ -335,7 +335,7 @@
                           <a class="mail-item-bookmark active" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">DesignWave Support</span>
                             <span class="mail-item-subject">[Published] StudioX Portfolio Template</span>
                             <span class="mail-item-text text-body"> Hi layoutWave, your new template is now live and ready to be purchased.out” has sold for $6.50 USD.</span>
@@ -362,7 +362,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">TemplateGalaxy Team</span>
                             <span class="mail-item-subject">✅ Your Template Passed Review</span>
                             <span class="mail-item-text text-body"> ZenBlocks UI System” is now listed on TemplateGalaxy. Congrats</span>
@@ -389,7 +389,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">DesignWave QA</span>
                             <span class="mail-item-subject">⚠️ Feedback on Recent Upload</span>
                             <span class="mail-item-text text-body"> Please fix responsiveness and padding issues</span>
@@ -416,7 +416,7 @@
                           <a class="mail-item-bookmark active" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">ThemeHive</span>
                             <span class="mail-item-subject">🛑 Hard Rejection – July 18</span>
                             <span class="mail-item-text text-body"> our “NewsNow” template did not meet our layout standards. Check feedback</span>
@@ -443,7 +443,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">PixelMarket</span>
                             <span class="mail-item-subject">🌟 Trending Items This Week</span>
                             <span class="mail-item-text text-body"> See what's rising in popularity </span>
@@ -470,7 +470,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">DesignWave Support</span>
                             <span class="mail-item-subject">[Published] StudioX Portfolio Template</span>
                             <span class="mail-item-text text-body"> Hi layoutWave, your new template is now live and ready to be purchased.out” has sold for $6.50 USD.</span>
@@ -497,7 +497,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">TemplateGalaxy Team</span>
                             <span class="mail-item-subject">✅ Your Template Passed Review</span>
                             <span class="mail-item-text text-body"> ZenBlocks UI System” is now listed on TemplateGalaxy. Congrats</span>
@@ -538,7 +538,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">PixelMarket</span>
                             <span class="mail-item-subject">🎨 Fresh Color Kits Just Dropped!-</span>
                             <span class="mail-item-text text-body"> Add vibrance to your summer projects with pastel gradients and neon palettes.</span>
@@ -565,7 +565,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">PixelMarket</span>
                             <span class="mail-item-subject">Must-Have Fonts for Creators</span>
                             <span class="mail-item-text text-body"> Explore our top picks for minimal, bold, and handwritten font styles</span>
@@ -592,7 +592,7 @@
                           <a class="mail-item-bookmark active" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">ThemeHive</span>
                             <span class="mail-item-subject">🛑 Hard Rejection – July 18</span>
                             <span class="mail-item-text text-body"> our “NewsNow” template did not meet our layout standards. Check feedback.</span>
@@ -619,7 +619,7 @@
                           <a class="mail-item-bookmark active" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">DesignWave Support</span>
                             <span class="mail-item-subject">[Published] StudioX Portfolio Template</span>
                             <span class="mail-item-text text-body"> Hi layoutWave, your new template is now live and ready to be purchased.out” has sold for $6.50 USD.</span>
@@ -646,7 +646,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">TemplateGalaxy Team</span>
                             <span class="mail-item-subject">✅ Your Template Passed Review</span>
                             <span class="mail-item-text text-body"> ZenBlocks UI System” is now listed on TemplateGalaxy. Congrats</span>
@@ -673,7 +673,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">TemplateGalaxy Team</span>
                             <span class="mail-item-subject">✅ Your Template Passed Review</span>
                             <span class="mail-item-text text-body"> ZenBlocks UI System” is now listed on TemplateGalaxy. Congrats</span>
@@ -714,7 +714,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">PixelMarket</span>
                             <span class="mail-item-subject">🌟 Trending Items This Week</span>
                             <span class="mail-item-text text-body"> See what's rising in popularity </span>
@@ -741,7 +741,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">DesignWave Support</span>
                             <span class="mail-item-subject">[Published] StudioX Portfolio Template</span>
                             <span class="mail-item-text text-body"> Hi layoutWave, your new template is now live and ready to be purchased.out” has sold for $6.50 USD.</span>
@@ -768,7 +768,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">TemplateGalaxy Team</span>
                             <span class="mail-item-subject">✅ Your Template Passed Review</span>
                             <span class="mail-item-text text-body"> ZenBlocks UI System” is now listed on TemplateGalaxy. Congrats</span>
@@ -809,7 +809,7 @@
                           <a class="mail-item-bookmark active" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">DesignWave</span>
                             <span class="mail-item-subject">💰 You Made a Sale!</span>
                             <span class="mail-item-text text-body"> Congrats, layoutWave! Your product “MetroGrid Figma Layout” has sold for $</span>
@@ -836,7 +836,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">ThemeHive</span>
                             <span class="mail-item-subject">Review Digest – July 20th</span>
                             <span class="mail-item-text text-body"> Hello layoutWave, 2 themes approved:</span>
@@ -863,7 +863,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">DesignWave QA</span>
                             <span class="mail-item-subject">⚠️ Feedback on Recent Upload</span>
                             <span class="mail-item-text text-body"> Please fix responsiveness and padding issues.</span>
@@ -890,7 +890,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">PixelMarket</span>
                             <span class="mail-item-subject">🌟 Trending Items This Week</span>
                             <span class="mail-item-text text-body"> See what's rising in popularity</span>
@@ -917,7 +917,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">TemplateGalaxy Team</span>
                             <span class="mail-item-subject">✅ Your Template Passed Review</span>
                             <span class="mail-item-text text-body"> ZenBlocks UI System” is now listed on TemplateGalaxy. Congrats</span>
@@ -944,7 +944,7 @@
                           <a class="mail-item-bookmark active" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">ThemeHive</span>
                             <span class="mail-item-subject">🛑 Hard Rejection – July 18</span>
                             <span class="mail-item-text text-body"> our “NewsNow” template did not meet our layout standards. Check feedback</span>
@@ -971,7 +971,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">DesignWave Support</span>
                             <span class="mail-item-subject">[Published] StudioX Portfolio Template</span>
                             <span class="mail-item-text text-body"> Hi layoutWave, your new template is now live and ready to be purchased.out” has sold for $6.50 USD.</span>
@@ -1012,7 +1012,7 @@
                           <a class="mail-item-bookmark active" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">PixelMarket</span>
                             <span class="mail-item-subject">🎨 Fresh Color Kits Just Dropped!-</span>
                             <span class="mail-item-text text-body"> Add vibrance to your summer projects with pastel gradients and neon palettes.</span>
@@ -1039,7 +1039,7 @@
                           <a class="mail-item-bookmark active" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">DesignWave</span>
                             <span class="mail-item-subject">💰 You Made a Sale!</span>
                             <span class="mail-item-text text-body"> Congrats, layoutWave! Your product “MetroGrid Figma Layout” has sold for $</span>
@@ -1066,7 +1066,7 @@
                           <a class="mail-item-bookmark active" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">ThemeHive</span>
                             <span class="mail-item-subject">🛑 Hard Rejection – July 18</span>
                             <span class="mail-item-text text-body"> our “NewsNow” template did not meet our layout standards. Check feedback.</span>
@@ -1093,7 +1093,7 @@
                           <a class="mail-item-bookmark active" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">PixelMarket</span>
                             <span class="mail-item-subject">🌟 Trending Items This Week</span>
                             <span class="mail-item-text text-body"> See what's rising in popularity</span>
@@ -1134,7 +1134,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">TemplateGalaxy Team</span>
                             <span class="mail-item-subject">✅ Your Template Passed Review</span>
                             <span class="mail-item-text text-body"> ZenBlocks UI System” is now listed on TemplateGalaxy. Congrats</span>
@@ -1161,7 +1161,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">DesignWave QA</span>
                             <span class="mail-item-subject">⚠️ Feedback on Recent Upload</span>
                             <span class="mail-item-text text-body"> Please fix responsiveness and padding issues</span>
@@ -1188,7 +1188,7 @@
                           <a class="mail-item-bookmark active" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">ThemeHive</span>
                             <span class="mail-item-subject">🛑 Hard Rejection – July 18</span>
                             <span class="mail-item-text text-body"> our “NewsNow” template did not meet our layout standards. Check feedback</span>
@@ -1215,7 +1215,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">PixelMarket</span>
                             <span class="mail-item-subject">🌟 Trending Items This Week</span>
                             <span class="mail-item-text text-body"> See what's rising in popularity </span>
@@ -1242,7 +1242,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">DesignWave Support</span>
                             <span class="mail-item-subject">[Published] StudioX Portfolio Template</span>
                             <span class="mail-item-text text-body"> Hi layoutWave, your new template is now live and ready to be purchased.out” has sold for $6.50 USD.</span>
@@ -1269,7 +1269,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">TemplateGalaxy Team</span>
                             <span class="mail-item-subject">✅ Your Template Passed Review</span>
                             <span class="mail-item-text text-body"> ZenBlocks UI System” is now listed on TemplateGalaxy. Congrats</span>
@@ -1310,7 +1310,7 @@
                           <a class="mail-item-bookmark active" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">DesignWave</span>
                             <span class="mail-item-subject">💰 You Made a Sale!</span>
                             <span class="mail-item-text text-body"> Congrats, layoutWave! Your product “MetroGrid Figma Layout” has sold for $</span>
@@ -1337,7 +1337,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">ThemeHive</span>
                             <span class="mail-item-subject">Review Digest – July 20th</span>
                             <span class="mail-item-text text-body"> Hello layoutWave, 2 themes approved:</span>
@@ -1364,7 +1364,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">DesignWave QA</span>
                             <span class="mail-item-subject">⚠️ Feedback on Recent Upload</span>
                             <span class="mail-item-text text-body"> Please fix responsiveness and padding issues.</span>
@@ -1391,7 +1391,7 @@
                           <a class="mail-item-bookmark active" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">ThemeHive</span>
                             <span class="mail-item-subject">🛑 Hard Rejection – July 18</span>
                             <span class="mail-item-text text-body"> our “NewsNow” template did not meet our layout standards. Check feedback.</span>
@@ -1418,7 +1418,7 @@
                           <a class="mail-item-bookmark active" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">DesignWave Support</span>
                             <span class="mail-item-subject">[Published] StudioX Portfolio Template</span>
                             <span class="mail-item-text text-body"> Hi layoutWave, your new template is now live and ready to be purchased.out” has sold for $6.50 USD.</span>
@@ -1445,7 +1445,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">TemplateGalaxy Team</span>
                             <span class="mail-item-subject">✅ Your Template Passed Review</span>
                             <span class="mail-item-text text-body"> ZenBlocks UI System” is now listed on TemplateGalaxy. Congrats</span>
@@ -1472,7 +1472,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">PixelMarket</span>
                             <span class="mail-item-subject">🌟 Trending Items This Week</span>
                             <span class="mail-item-text text-body"> See what's rising in popularity </span>
@@ -1499,7 +1499,7 @@
                           <a class="mail-item-bookmark" href="javascript:void();">
                             <i class="fi fi-rr-star me-2 me-sm-3"></i>
                           </a>
-                          <a href="http://../email/read-email.html" class="mail-item-content ms-2 ms-sm-0 me-2">
+                          <a href="{{ route('admin.email.read-email') }}" class="mail-item-content ms-2 ms-sm-0 me-2">
                             <span class="mail-item-username me-2">TemplateGalaxy Team</span>
                             <span class="mail-item-subject">✅ Your Template Passed Review</span>
                             <span class="mail-item-text text-body"> ZenBlocks UI System” is now listed on TemplateGalaxy. Congrats</span>

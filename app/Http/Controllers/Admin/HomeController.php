@@ -303,6 +303,18 @@ class HomeController extends Controller
     {
         return view('admin.extendedUi.swiper');
     }
+    public function flaticon()
+    {
+        return view('admin.icons.flaticon');
+    }
+    public function lucide()
+    {
+        return view('admin.icons.lucide');
+    }
+    public function fontawesome()
+    {
+        return view('admin.icons.fontawesome');
+    }
     public function formElements()
     {
         return view('admin.forms.formElements');
@@ -342,5 +354,21 @@ class HomeController extends Controller
     public function apexChart()
     {
         return view('admin.chart.apexChart');
+    }
+    public function chartJs()
+    {
+        return view('admin.chart.chartJs');
+    }
+    public function jsVectorMap()
+    {
+        return view('admin.maps.jsVectorMap');
+    }
+    public function leaflet()
+    {
+        return view('admin.maps.leaflet');
+    }
+    public function settings()
+    {
+        return view('admin.settings');
     }
 }

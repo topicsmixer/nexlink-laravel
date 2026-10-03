@@ -55,11 +55,11 @@
                                 </li>
                             </ul>
                             <h5>
-                                <a href="http://../pages/blog-details.html" class="text-dark">CRM Analytics Made Simple:
+                                <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">CRM Analytics Made Simple:
                                     Visualize Growth with Real-Time Dashboards</a>
                             </h5>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                            <a href="http://../pages/blog-details.html" class="btn-link stretched-link">Read More</a>
+                            <a href="{{ route('admin.pages.blog-details') }}" class="btn-link stretched-link">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -79,11 +79,11 @@
                                 </li>
                             </ul>
                             <h5>
-                                <a href="http://../pages/blog-details.html" class="text-dark">How to Build a Scalable CRM
+                                <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">How to Build a Scalable CRM
                                     Dashboard for Teams and Enterprises</a>
                             </h5>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                            <a href="http://../pages/blog-details.html" class="btn-link stretched-link">Read More</a>
+                            <a href="{{ route('admin.pages.blog-details') }}" class="btn-link stretched-link">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -102,11 +102,11 @@
                                 </li>
                             </ul>
                             <h5>
-                                <a href="http://../pages/blog-details.html" class="text-dark">Designing the Perfect CRM
+                                <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">Designing the Perfect CRM
                                     Admin Dashboard: A Step-by-Step Guide</a>
                             </h5>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                            <a href="http://../pages/blog-details.html" class="btn-link stretched-link">Read More</a>
+                            <a href="{{ route('admin.pages.blog-details') }}" class="btn-link stretched-link">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -125,11 +125,11 @@
                                 </li>
                             </ul>
                             <h5>
-                                <a href="http://../pages/blog-details.html" class="text-dark">Dashboard Insights That
+                                <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">Dashboard Insights That
                                     Transform Customer Relationship Management</a>
                             </h5>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                            <a href="http://../pages/blog-details.html" class="btn-link stretched-link">Read More</a>
+                            <a href="{{ route('admin.pages.blog-details') }}" class="btn-link stretched-link">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -148,11 +148,11 @@
                                 </li>
                             </ul>
                             <h5>
-                                <a href="http://../pages/blog-details.html" class="text-dark">From Data Chaos to Clarity:
+                                <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">From Data Chaos to Clarity:
                                     How CRM Admin Tools Simplify Management</a>
                             </h5>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                            <a href="http://../pages/blog-details.html" class="btn-link stretched-link">Read More</a>
+                            <a href="{{ route('admin.pages.blog-details') }}" class="btn-link stretched-link">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -171,11 +171,11 @@
                                 </li>
                             </ul>
                             <h5>
-                                <a href="http://../pages/blog-details.html" class="text-dark">Top UI/UX Trends Shaping the
+                                <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">Top UI/UX Trends Shaping the
                                     Next Generation of CRM Dashboards</a>
                             </h5>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                            <a href="http://../pages/blog-details.html" class="btn-link stretched-link">Read More</a>
+                            <a href="{{ route('admin.pages.blog-details') }}" class="btn-link stretched-link">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -194,11 +194,11 @@
                                 </li>
                             </ul>
                             <h5>
-                                <a href="http://../pages/blog-details.html" class="text-dark">Why Your Business Needs a
+                                <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">Why Your Business Needs a
                                     Customizable CRM Admin</a>
                             </h5>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                            <a href="http://../pages/blog-details.html" class="btn-link stretched-link">Read More</a>
+                            <a href="{{ route('admin.pages.blog-details') }}" class="btn-link stretched-link">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -217,11 +217,11 @@
                                 </li>
                             </ul>
                             <h5>
-                                <a href="http://../pages/blog-details.html" class="text-dark">The Future of CRM:
+                                <a href="{{ route('admin.pages.blog-details') }}" class="text-dark">The Future of CRM:
                                     AI-Powered Admin Dashboards for Smarter</a>
                             </h5>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                            <a href="http://../pages/blog-details.html" class="btn-link stretched-link">Read More</a>
+                            <a href="{{ route('admin.pages.blog-details') }}" class="btn-link stretched-link">Read More</a>
                         </div>
                     </div>
                 </div>

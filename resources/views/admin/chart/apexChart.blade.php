@@ -1,6 +1,6 @@
 @extends('admin.layouts.app')
 
-@section('title', 'Apexchart')
+@section('title', 'chart JS')
 
 @push('styles')
     <!--  Required Stylesheet -->
